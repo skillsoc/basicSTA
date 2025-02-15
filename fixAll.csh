@@ -5,3 +5,4 @@ mv ../MACRO libs/
 mkdir aocv
 mv ../aocvCorrected_fast.aocv aocv/
 mv ../aocvCorrected_slow.aocv aocv/
+mv ../Nangate45_lvt.lib libs/
