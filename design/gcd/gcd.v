@@ -503,38 +503,38 @@ module gcd (clk,
  wire _485_;
  wire \ctrl.state.out[1] ;
  wire \ctrl.state.out[2] ;
- wire \dpath.a_lt_b_in0[0] ;
- wire \dpath.a_lt_b_in0[10] ;
- wire \dpath.a_lt_b_in0[11] ;
- wire \dpath.a_lt_b_in0[12] ;
- wire \dpath.a_lt_b_in0[13] ;
- wire \dpath.a_lt_b_in0[14] ;
- wire \dpath.a_lt_b_in0[15] ;
- wire \dpath.a_lt_b_in0[1] ;
- wire \dpath.a_lt_b_in0[2] ;
- wire \dpath.a_lt_b_in0[3] ;
- wire \dpath.a_lt_b_in0[4] ;
- wire \dpath.a_lt_b_in0[5] ;
- wire \dpath.a_lt_b_in0[6] ;
- wire \dpath.a_lt_b_in0[7] ;
- wire \dpath.a_lt_b_in0[8] ;
- wire \dpath.a_lt_b_in0[9] ;
- wire \dpath.a_lt_b_in1[0] ;
- wire \dpath.a_lt_b_in1[10] ;
- wire \dpath.a_lt_b_in1[11] ;
- wire \dpath.a_lt_b_in1[12] ;
- wire \dpath.a_lt_b_in1[13] ;
- wire \dpath.a_lt_b_in1[14] ;
- wire \dpath.a_lt_b_in1[15] ;
- wire \dpath.a_lt_b_in1[1] ;
- wire \dpath.a_lt_b_in1[2] ;
- wire \dpath.a_lt_b_in1[3] ;
- wire \dpath.a_lt_b_in1[4] ;
- wire \dpath.a_lt_b_in1[5] ;
- wire \dpath.a_lt_b_in1[6] ;
- wire \dpath.a_lt_b_in1[7] ;
- wire \dpath.a_lt_b_in1[8] ;
- wire \dpath.a_lt_b_in1[9] ;
+ wire \dpath.a_lt_b$in0[0] ;
+ wire \dpath.a_lt_b$in0[10] ;
+ wire \dpath.a_lt_b$in0[11] ;
+ wire \dpath.a_lt_b$in0[12] ;
+ wire \dpath.a_lt_b$in0[13] ;
+ wire \dpath.a_lt_b$in0[14] ;
+ wire \dpath.a_lt_b$in0[15] ;
+ wire \dpath.a_lt_b$in0[1] ;
+ wire \dpath.a_lt_b$in0[2] ;
+ wire \dpath.a_lt_b$in0[3] ;
+ wire \dpath.a_lt_b$in0[4] ;
+ wire \dpath.a_lt_b$in0[5] ;
+ wire \dpath.a_lt_b$in0[6] ;
+ wire \dpath.a_lt_b$in0[7] ;
+ wire \dpath.a_lt_b$in0[8] ;
+ wire \dpath.a_lt_b$in0[9] ;
+ wire \dpath.a_lt_b$in1[0] ;
+ wire \dpath.a_lt_b$in1[10] ;
+ wire \dpath.a_lt_b$in1[11] ;
+ wire \dpath.a_lt_b$in1[12] ;
+ wire \dpath.a_lt_b$in1[13] ;
+ wire \dpath.a_lt_b$in1[14] ;
+ wire \dpath.a_lt_b$in1[15] ;
+ wire \dpath.a_lt_b$in1[1] ;
+ wire \dpath.a_lt_b$in1[2] ;
+ wire \dpath.a_lt_b$in1[3] ;
+ wire \dpath.a_lt_b$in1[4] ;
+ wire \dpath.a_lt_b$in1[5] ;
+ wire \dpath.a_lt_b$in1[6] ;
+ wire \dpath.a_lt_b$in1[7] ;
+ wire \dpath.a_lt_b$in1[8] ;
+ wire \dpath.a_lt_b$in1[9] ;
  wire net36;
  wire net37;
  wire net38;
@@ -638,52 +638,52 @@ module gcd (clk,
  wire net84;
  wire net104;
 
- INV_X2 _486_ (.A(\dpath.a_lt_b_in1[11] ),
+ INV_X2 _486_ (.A(\dpath.a_lt_b$in1[11] ),
     .ZN(_036_));
- INV_X1 _487_ (.A(\dpath.a_lt_b_in1[10] ),
+ INV_X1 _487_ (.A(\dpath.a_lt_b$in1[10] ),
     .ZN(_037_));
- INV_X2 _488_ (.A(\dpath.a_lt_b_in1[9] ),
+ INV_X2 _488_ (.A(\dpath.a_lt_b$in1[9] ),
     .ZN(_038_));
- INV_X2 _489_ (.A(\dpath.a_lt_b_in1[8] ),
+ INV_X2 _489_ (.A(\dpath.a_lt_b$in1[8] ),
     .ZN(_039_));
  NAND4_X1 _490_ (.A1(_036_),
     .A2(_037_),
     .A3(_038_),
     .A4(_039_),
     .ZN(_040_));
- INV_X1 _491_ (.A(\dpath.a_lt_b_in1[15] ),
+ INV_X1 _491_ (.A(\dpath.a_lt_b$in1[15] ),
     .ZN(_041_));
- INV_X2 _492_ (.A(\dpath.a_lt_b_in1[14] ),
+ INV_X2 _492_ (.A(\dpath.a_lt_b$in1[14] ),
     .ZN(_042_));
- INV_X1 _493_ (.A(\dpath.a_lt_b_in1[13] ),
+ INV_X1 _493_ (.A(\dpath.a_lt_b$in1[13] ),
     .ZN(_043_));
- INV_X2 _494_ (.A(\dpath.a_lt_b_in1[12] ),
+ INV_X2 _494_ (.A(\dpath.a_lt_b$in1[12] ),
     .ZN(_044_));
  NAND4_X2 _495_ (.A1(_041_),
     .A2(_042_),
     .A3(_043_),
     .A4(_044_),
     .ZN(_045_));
- INV_X2 _496_ (.A(\dpath.a_lt_b_in1[3] ),
+ INV_X2 _496_ (.A(\dpath.a_lt_b$in1[3] ),
     .ZN(_046_));
- INV_X2 _497_ (.A(\dpath.a_lt_b_in1[2] ),
+ INV_X2 _497_ (.A(\dpath.a_lt_b$in1[2] ),
     .ZN(_047_));
- INV_X2 _498_ (.A(\dpath.a_lt_b_in1[1] ),
+ INV_X2 _498_ (.A(\dpath.a_lt_b$in1[1] ),
     .ZN(_048_));
- INV_X2 _499_ (.A(\dpath.a_lt_b_in1[0] ),
+ INV_X2 _499_ (.A(\dpath.a_lt_b$in1[0] ),
     .ZN(_049_));
  NAND4_X1 _500_ (.A1(_046_),
     .A2(_047_),
     .A3(_048_),
     .A4(_049_),
     .ZN(_050_));
- INV_X2 _501_ (.A(\dpath.a_lt_b_in1[7] ),
+ INV_X2 _501_ (.A(\dpath.a_lt_b$in1[7] ),
     .ZN(_051_));
- INV_X2 _502_ (.A(\dpath.a_lt_b_in1[6] ),
+ INV_X2 _502_ (.A(\dpath.a_lt_b$in1[6] ),
     .ZN(_052_));
- INV_X4 _503_ (.A(\dpath.a_lt_b_in1[5] ),
+ INV_X4 _503_ (.A(\dpath.a_lt_b$in1[5] ),
     .ZN(_053_));
- INV_X2 _504_ (.A(\dpath.a_lt_b_in1[4] ),
+ INV_X2 _504_ (.A(\dpath.a_lt_b$in1[4] ),
     .ZN(_054_));
  NAND4_X2 _505_ (.A1(_051_),
     .A2(_052_),
@@ -695,7 +695,7 @@ module gcd (clk,
     .A3(_050_),
     .A4(_055_),
     .ZN(_056_));
- BUF_X4 _507_ (.A(\ctrl.state.out[2] ),
+ CLKBUF_X3 _507_ (.A(\ctrl.state.out[2] ),
     .Z(_057_));
  INV_X1 _508_ (.A(_057_),
     .ZN(_058_));
@@ -704,9 +704,9 @@ module gcd (clk,
     .ZN(_059_));
  BUF_X2 _510_ (.A(net36),
     .Z(_060_));
- BUF_X4 _511_ (.A(_060_),
+ CLKBUF_X3 _511_ (.A(_060_),
     .Z(_061_));
- BUF_X4 _512_ (.A(_061_),
+ CLKBUF_X3 _512_ (.A(_061_),
     .Z(_062_));
  NAND2_X1 _513_ (.A1(_062_),
     .A2(net33),
@@ -726,9 +726,9 @@ module gcd (clk,
     .B1(net53),
     .B2(net35),
     .ZN(_065_));
- BUF_X4 _518_ (.A(_060_),
+ CLKBUF_X3 _518_ (.A(_060_),
     .Z(_066_));
- BUF_X4 _519_ (.A(_066_),
+ CLKBUF_X3 _519_ (.A(_066_),
     .Z(_067_));
  INV_X1 _520_ (.A(_067_),
     .ZN(_068_));
@@ -746,15 +746,15 @@ module gcd (clk,
     .B2(_059_),
     .ZN(_001_));
  XNOR2_X1 _525_ (.A(_049_),
-    .B(\dpath.a_lt_b_in0[0] ),
+    .B(\dpath.a_lt_b$in0[0] ),
     .ZN(net37));
- BUF_X4 _526_ (.A(\dpath.a_lt_b_in0[1] ),
+ BUF_X4 _526_ (.A(\dpath.a_lt_b$in0[1] ),
     .Z(_071_));
  NAND2_X2 _527_ (.A1(_048_),
     .A2(_071_),
     .ZN(_072_));
  NOR2_X2 _528_ (.A1(_049_),
-    .A2(\dpath.a_lt_b_in0[0] ),
+    .A2(\dpath.a_lt_b$in0[0] ),
     .ZN(_073_));
  NOR2_X1 _529_ (.A1(_048_),
     .A2(_071_),
@@ -766,7 +766,7 @@ module gcd (clk,
  NAND2_X4 _531_ (.A1(_046_),
     .A2(net84),
     .ZN(_076_));
- INV_X2 _532_ (.A(\dpath.a_lt_b_in0[3] ),
+ INV_X2 _532_ (.A(\dpath.a_lt_b$in0[3] ),
     .ZN(_077_));
  NAND2_X4 _533_ (.A1(_077_),
     .A2(net83),
@@ -775,9 +775,9 @@ module gcd (clk,
     .A2(_078_),
     .ZN(_079_));
  NAND2_X4 _535_ (.A1(_047_),
-    .A2(\dpath.a_lt_b_in0[2] ),
+    .A2(\dpath.a_lt_b$in0[2] ),
     .ZN(_080_));
- INV_X2 _536_ (.A(\dpath.a_lt_b_in0[2] ),
+ INV_X2 _536_ (.A(\dpath.a_lt_b$in0[2] ),
     .ZN(_081_));
  NAND2_X4 _537_ (.A1(_081_),
     .A2(net104),
@@ -792,7 +792,7 @@ module gcd (clk,
     .A2(_084_),
     .ZN(_085_));
  NOR2_X1 _541_ (.A1(_046_),
-    .A2(\dpath.a_lt_b_in0[3] ),
+    .A2(\dpath.a_lt_b$in0[3] ),
     .ZN(_086_));
  OAI21_X2 _542_ (.A(_076_),
     .B1(_086_),
@@ -803,13 +803,13 @@ module gcd (clk,
  NAND2_X4 _544_ (.A1(_088_),
     .A2(_085_),
     .ZN(_089_));
- INV_X1 _545_ (.A(\dpath.a_lt_b_in0[7] ),
+ INV_X1 _545_ (.A(\dpath.a_lt_b$in0[7] ),
     .ZN(_090_));
  NAND2_X2 _546_ (.A1(_090_),
-    .A2(\dpath.a_lt_b_in1[7] ),
+    .A2(\dpath.a_lt_b$in1[7] ),
     .ZN(_091_));
  NAND2_X2 _547_ (.A1(_051_),
-    .A2(\dpath.a_lt_b_in0[7] ),
+    .A2(\dpath.a_lt_b$in0[7] ),
     .ZN(_092_));
  NAND2_X4 _548_ (.A1(_091_),
     .A2(_092_),
@@ -817,7 +817,7 @@ module gcd (clk,
  NAND2_X4 _549_ (.A1(_052_),
     .A2(net72),
     .ZN(_094_));
- INV_X2 _550_ (.A(\dpath.a_lt_b_in0[6] ),
+ INV_X2 _550_ (.A(\dpath.a_lt_b$in0[6] ),
     .ZN(_095_));
  NAND2_X4 _551_ (.A1(_095_),
     .A2(net81),
@@ -831,10 +831,10 @@ module gcd (clk,
  NAND2_X4 _554_ (.A1(net57),
     .A2(_053_),
     .ZN(_099_));
- INV_X2 _555_ (.A(\dpath.a_lt_b_in0[5] ),
+ INV_X2 _555_ (.A(\dpath.a_lt_b$in0[5] ),
     .ZN(_100_));
  NAND2_X4 _556_ (.A1(_100_),
-    .A2(\dpath.a_lt_b_in1[5] ),
+    .A2(\dpath.a_lt_b$in1[5] ),
     .ZN(_101_));
  NAND2_X4 _557_ (.A1(_101_),
     .A2(_099_),
@@ -842,7 +842,7 @@ module gcd (clk,
  NAND2_X2 _558_ (.A1(_054_),
     .A2(net75),
     .ZN(_103_));
- INV_X2 _559_ (.A(\dpath.a_lt_b_in0[4] ),
+ INV_X2 _559_ (.A(\dpath.a_lt_b$in0[4] ),
     .ZN(_104_));
  NAND2_X4 _560_ (.A1(_104_),
     .A2(net55),
@@ -885,25 +885,25 @@ module gcd (clk,
  NAND2_X2 _573_ (.A1(_109_),
     .A2(_117_),
     .ZN(_118_));
- INV_X1 _574_ (.A(\dpath.a_lt_b_in0[13] ),
+ INV_X1 _574_ (.A(\dpath.a_lt_b$in0[13] ),
     .ZN(_119_));
  NOR2_X2 _575_ (.A1(_119_),
-    .A2(\dpath.a_lt_b_in1[13] ),
+    .A2(\dpath.a_lt_b$in1[13] ),
     .ZN(_120_));
  INV_X1 _576_ (.A(_120_),
     .ZN(_121_));
  NAND2_X1 _577_ (.A1(_119_),
-    .A2(\dpath.a_lt_b_in1[13] ),
+    .A2(\dpath.a_lt_b$in1[13] ),
     .ZN(_122_));
  NAND2_X2 _578_ (.A1(_121_),
     .A2(_122_),
     .ZN(_123_));
  INV_X2 _579_ (.A(_123_),
     .ZN(_124_));
- INV_X2 _580_ (.A(\dpath.a_lt_b_in0[12] ),
+ INV_X2 _580_ (.A(\dpath.a_lt_b$in0[12] ),
     .ZN(_125_));
  NOR2_X4 _581_ (.A1(_125_),
-    .A2(\dpath.a_lt_b_in1[12] ),
+    .A2(\dpath.a_lt_b$in1[12] ),
     .ZN(_126_));
  NOR2_X4 _582_ (.A1(_044_),
     .A2(net80),
@@ -915,20 +915,20 @@ module gcd (clk,
     .A2(_128_),
     .ZN(_129_));
  NAND2_X1 _585_ (.A1(_042_),
-    .A2(\dpath.a_lt_b_in0[14] ),
+    .A2(\dpath.a_lt_b$in0[14] ),
     .ZN(_130_));
- INV_X1 _586_ (.A(\dpath.a_lt_b_in0[14] ),
+ INV_X1 _586_ (.A(\dpath.a_lt_b$in0[14] ),
     .ZN(_131_));
  NAND2_X1 _587_ (.A1(_131_),
-    .A2(\dpath.a_lt_b_in1[14] ),
+    .A2(\dpath.a_lt_b$in1[14] ),
     .ZN(_132_));
  NAND2_X2 _588_ (.A1(_130_),
     .A2(_132_),
     .ZN(_133_));
  INV_X2 _589_ (.A(_133_),
     .ZN(_134_));
- XNOR2_X2 _590_ (.A(\dpath.a_lt_b_in1[15] ),
-    .B(\dpath.a_lt_b_in0[15] ),
+ XNOR2_X2 _590_ (.A(\dpath.a_lt_b$in1[15] ),
+    .B(\dpath.a_lt_b$in0[15] ),
     .ZN(_135_));
  NAND2_X1 _591_ (.A1(_134_),
     .A2(_135_),
@@ -939,7 +939,7 @@ module gcd (clk,
  NAND2_X4 _593_ (.A1(_036_),
     .A2(net89),
     .ZN(_138_));
- INV_X2 _594_ (.A(\dpath.a_lt_b_in0[11] ),
+ INV_X2 _594_ (.A(\dpath.a_lt_b$in0[11] ),
     .ZN(_139_));
  NAND2_X4 _595_ (.A1(_139_),
     .A2(net88),
@@ -948,12 +948,12 @@ module gcd (clk,
     .A2(_140_),
     .ZN(_141_));
  NAND2_X2 _597_ (.A1(_037_),
-    .A2(\dpath.a_lt_b_in0[10] ),
+    .A2(\dpath.a_lt_b$in0[10] ),
     .ZN(_142_));
- INV_X1 _598_ (.A(\dpath.a_lt_b_in0[10] ),
+ INV_X1 _598_ (.A(\dpath.a_lt_b$in0[10] ),
     .ZN(_143_));
  NAND2_X2 _599_ (.A1(_143_),
-    .A2(\dpath.a_lt_b_in1[10] ),
+    .A2(\dpath.a_lt_b$in1[10] ),
     .ZN(_144_));
  NAND2_X4 _600_ (.A1(_142_),
     .A2(_144_),
@@ -966,10 +966,10 @@ module gcd (clk,
  NAND2_X2 _603_ (.A1(_038_),
     .A2(net77),
     .ZN(_148_));
- INV_X1 _604_ (.A(\dpath.a_lt_b_in0[9] ),
+ INV_X1 _604_ (.A(\dpath.a_lt_b$in0[9] ),
     .ZN(_149_));
  NAND2_X2 _605_ (.A1(_149_),
-    .A2(\dpath.a_lt_b_in1[9] ),
+    .A2(\dpath.a_lt_b$in1[9] ),
     .ZN(_150_));
  NAND2_X4 _606_ (.A1(_148_),
     .A2(_150_),
@@ -977,12 +977,12 @@ module gcd (clk,
  INV_X4 _607_ (.A(_151_),
     .ZN(_152_));
  NAND2_X2 _608_ (.A1(_039_),
-    .A2(\dpath.a_lt_b_in0[8] ),
+    .A2(\dpath.a_lt_b$in0[8] ),
     .ZN(_153_));
- INV_X1 _609_ (.A(\dpath.a_lt_b_in0[8] ),
+ INV_X1 _609_ (.A(\dpath.a_lt_b$in0[8] ),
     .ZN(_154_));
  NAND2_X2 _610_ (.A1(_154_),
-    .A2(\dpath.a_lt_b_in1[8] ),
+    .A2(\dpath.a_lt_b$in1[8] ),
     .ZN(_155_));
  NAND2_X2 _611_ (.A1(_153_),
     .A2(_155_),
@@ -1034,7 +1034,7 @@ module gcd (clk,
     .A2(_136_),
     .ZN(_172_));
  NAND2_X1 _628_ (.A1(_041_),
-    .A2(\dpath.a_lt_b_in0[15] ),
+    .A2(\dpath.a_lt_b$in0[15] ),
     .ZN(_173_));
  INV_X1 _629_ (.A(_135_),
     .ZN(_174_));
@@ -1074,7 +1074,7 @@ module gcd (clk,
  NOR2_X4 _640_ (.A1(_058_),
     .A2(_060_),
     .ZN(_185_));
- BUF_X4 _641_ (.A(_185_),
+ CLKBUF_X3 _641_ (.A(_185_),
     .Z(_186_));
  NAND2_X1 _642_ (.A1(_184_),
     .A2(_186_),
@@ -1085,7 +1085,7 @@ module gcd (clk,
  BUF_X2 _644_ (.A(_188_),
     .Z(_189_));
  AND2_X1 _645_ (.A1(_189_),
-    .A2(\dpath.a_lt_b_in0[0] ),
+    .A2(\dpath.a_lt_b$in0[0] ),
     .ZN(_190_));
  AOI21_X1 _646_ (.A(_190_),
     .B1(_067_),
@@ -1154,7 +1154,7 @@ module gcd (clk,
     .A2(_186_),
     .ZN(_209_));
  AND2_X1 _667_ (.A1(_189_),
-    .A2(\dpath.a_lt_b_in0[10] ),
+    .A2(\dpath.a_lt_b$in0[10] ),
     .ZN(_210_));
  AOI21_X1 _668_ (.A(_210_),
     .B1(_067_),
@@ -1169,7 +1169,7 @@ module gcd (clk,
     .ZN(_212_));
  INV_X4 _671_ (.A(_083_),
     .ZN(_213_));
- XNOR2_X2 _672_ (.A(\dpath.a_lt_b_in1[1] ),
+ XNOR2_X2 _672_ (.A(\dpath.a_lt_b$in1[1] ),
     .B(_071_),
     .ZN(_214_));
  INV_X1 _673_ (.A(_073_),
@@ -1179,7 +1179,7 @@ module gcd (clk,
     .A3(_215_),
     .ZN(_216_));
  NOR2_X1 _675_ (.A1(_047_),
-    .A2(\dpath.a_lt_b_in0[2] ),
+    .A2(\dpath.a_lt_b$in0[2] ),
     .ZN(_217_));
  OAI21_X2 _676_ (.A(_080_),
     .B1(_217_),
@@ -1294,7 +1294,7 @@ module gcd (clk,
     .A2(_186_),
     .ZN(_256_));
  AND2_X1 _716_ (.A1(_189_),
-    .A2(\dpath.a_lt_b_in0[11] ),
+    .A2(\dpath.a_lt_b$in0[11] ),
     .ZN(_257_));
  AOI21_X1 _717_ (.A(_257_),
     .B1(_067_),
@@ -1364,7 +1364,7 @@ module gcd (clk,
     .A2(_276_),
     .ZN(_007_));
  NAND3_X1 _739_ (.A1(_193_),
-    .A2(\dpath.a_lt_b_in1[13] ),
+    .A2(\dpath.a_lt_b$in1[13] ),
     .A3(_064_),
     .ZN(_277_));
  NOR2_X4 _740_ (.A1(_141_),
@@ -1439,7 +1439,7 @@ module gcd (clk,
     .A2(_186_),
     .ZN(_300_));
  AND2_X1 _764_ (.A1(_189_),
-    .A2(\dpath.a_lt_b_in0[13] ),
+    .A2(\dpath.a_lt_b$in0[13] ),
     .ZN(_301_));
  AOI21_X1 _765_ (.A(_301_),
     .B1(_067_),
@@ -1503,7 +1503,7 @@ module gcd (clk,
     .A2(_186_),
     .ZN(_319_));
  AND2_X1 _785_ (.A1(_189_),
-    .A2(\dpath.a_lt_b_in0[14] ),
+    .A2(\dpath.a_lt_b$in0[14] ),
     .ZN(_320_));
  AOI21_X1 _786_ (.A(_320_),
     .B1(_067_),
@@ -1513,7 +1513,7 @@ module gcd (clk,
     .A2(_321_),
     .ZN(_009_));
  NAND3_X1 _788_ (.A1(_193_),
-    .A2(\dpath.a_lt_b_in1[15] ),
+    .A2(\dpath.a_lt_b$in1[15] ),
     .A3(_064_),
     .ZN(_322_));
  NOR2_X2 _789_ (.A1(_123_),
@@ -1567,7 +1567,7 @@ module gcd (clk,
     .A2(_186_),
     .ZN(_337_));
  AND2_X1 _805_ (.A1(_189_),
-    .A2(\dpath.a_lt_b_in0[15] ),
+    .A2(\dpath.a_lt_b$in0[15] ),
     .ZN(_338_));
  AOI21_X1 _806_ (.A(_338_),
     .B1(_067_),
@@ -1617,7 +1617,7 @@ module gcd (clk,
     .A2(_186_),
     .ZN(_348_));
  AND2_X1 _820_ (.A1(_189_),
-    .A2(\dpath.a_lt_b_in0[2] ),
+    .A2(\dpath.a_lt_b$in0[2] ),
     .ZN(_349_));
  AOI21_X1 _821_ (.A(_349_),
     .B1(_067_),
@@ -1698,7 +1698,7 @@ module gcd (clk,
     .A2(_185_),
     .ZN(_366_));
  AND2_X1 _844_ (.A1(_188_),
-    .A2(\dpath.a_lt_b_in0[5] ),
+    .A2(\dpath.a_lt_b$in0[5] ),
     .ZN(_367_));
  AOI21_X1 _845_ (.A(_367_),
     .B1(_062_),
@@ -1722,7 +1722,7 @@ module gcd (clk,
     .A2(_185_),
     .ZN(_371_));
  AND2_X1 _851_ (.A1(_188_),
-    .A2(\dpath.a_lt_b_in0[6] ),
+    .A2(\dpath.a_lt_b$in0[6] ),
     .ZN(_372_));
  AOI21_X1 _852_ (.A(_372_),
     .B1(_062_),
@@ -1753,7 +1753,7 @@ module gcd (clk,
     .A2(_185_),
     .ZN(_378_));
  AND2_X1 _860_ (.A1(_188_),
-    .A2(\dpath.a_lt_b_in0[7] ),
+    .A2(\dpath.a_lt_b$in0[7] ),
     .ZN(_379_));
  AOI21_X1 _861_ (.A(_379_),
     .B1(_062_),
@@ -1784,7 +1784,7 @@ module gcd (clk,
     .A2(_185_),
     .ZN(_385_));
  AND2_X1 _869_ (.A1(_188_),
-    .A2(\dpath.a_lt_b_in0[8] ),
+    .A2(\dpath.a_lt_b$in0[8] ),
     .ZN(_386_));
  AOI21_X1 _870_ (.A(_386_),
     .B1(_062_),
@@ -1849,7 +1849,7 @@ module gcd (clk,
     .ZN(_402_));
  BUF_X8 _889_ (.A(_402_),
     .Z(_403_));
- MUX2_X1 _890_ (.A(\dpath.a_lt_b_in0[0] ),
+ MUX2_X1 _890_ (.A(\dpath.a_lt_b$in0[0] ),
     .B(net1),
     .S(_061_),
     .Z(_404_));
@@ -1893,7 +1893,7 @@ module gcd (clk,
  NAND2_X1 _902_ (.A1(_066_),
     .A2(net4),
     .ZN(_413_));
- BUF_X4 _903_ (.A(_061_),
+ CLKBUF_X3 _903_ (.A(_061_),
     .Z(_414_));
  OAI21_X1 _904_ (.A(_413_),
     .B1(_414_),
@@ -1936,7 +1936,7 @@ module gcd (clk,
     .B1(_042_),
     .B2(_406_),
     .ZN(_025_));
- MUX2_X1 _916_ (.A(\dpath.a_lt_b_in0[15] ),
+ MUX2_X1 _916_ (.A(\dpath.a_lt_b$in0[15] ),
     .B(net7),
     .S(_061_),
     .Z(_424_));
@@ -2070,145 +2070,145 @@ module gcd (clk,
     .B1(_038_),
     .B2(_403_),
     .ZN(_035_));
- DFF_X1 \ctrl.state.out[0]__DFF_P_  (.D(_000_),
+ DFF_X1 \ctrl.state.out[0]$_DFF_P_  (.D(_000_),
     .CK(clknet_2_0__leaf_clk),
     .Q(net36),
     .QN(_003_));
- DFF_X1 \ctrl.state.out[1]__DFF_P_  (.D(_001_),
+ DFF_X1 \ctrl.state.out[1]$_DFF_P_  (.D(_001_),
     .CK(clknet_2_0__leaf_clk),
     .Q(\ctrl.state.out[1] ),
     .QN(_485_));
- DFF_X1 \ctrl.state.out[2]__DFF_P_  (.D(_002_),
+ DFF_X1 \ctrl.state.out[2]$_DFF_P_  (.D(_002_),
     .CK(clknet_2_0__leaf_clk),
     .Q(\ctrl.state.out[2] ),
     .QN(_484_));
- DFF_X1 \dpath.a_reg.out[0]__DFFE_PP_  (.D(_004_),
+ DFF_X1 \dpath.a_reg.out[0]$_DFFE_PP_  (.D(_004_),
     .CK(clknet_2_0__leaf_clk),
-    .Q(\dpath.a_lt_b_in0[0] ),
+    .Q(\dpath.a_lt_b$in0[0] ),
     .QN(_483_));
- DFF_X1 \dpath.a_reg.out[10]__DFFE_PP_  (.D(_005_),
+ DFF_X1 \dpath.a_reg.out[10]$_DFFE_PP_  (.D(_005_),
     .CK(clknet_2_1__leaf_clk),
-    .Q(\dpath.a_lt_b_in0[10] ),
+    .Q(\dpath.a_lt_b$in0[10] ),
     .QN(_482_));
- DFF_X1 \dpath.a_reg.out[11]__DFFE_PP_  (.D(_006_),
+ DFF_X1 \dpath.a_reg.out[11]$_DFFE_PP_  (.D(_006_),
     .CK(clknet_2_1__leaf_clk),
-    .Q(\dpath.a_lt_b_in0[11] ),
+    .Q(\dpath.a_lt_b$in0[11] ),
     .QN(_481_));
- DFF_X1 \dpath.a_reg.out[12]__DFFE_PP_  (.D(_007_),
+ DFF_X1 \dpath.a_reg.out[12]$_DFFE_PP_  (.D(_007_),
     .CK(clknet_2_1__leaf_clk),
-    .Q(\dpath.a_lt_b_in0[12] ),
+    .Q(\dpath.a_lt_b$in0[12] ),
     .QN(_480_));
- DFF_X1 \dpath.a_reg.out[13]__DFFE_PP_  (.D(_008_),
+ DFF_X1 \dpath.a_reg.out[13]$_DFFE_PP_  (.D(_008_),
     .CK(clknet_2_1__leaf_clk),
-    .Q(\dpath.a_lt_b_in0[13] ),
+    .Q(\dpath.a_lt_b$in0[13] ),
     .QN(_479_));
- DFF_X1 \dpath.a_reg.out[14]__DFFE_PP_  (.D(_009_),
+ DFF_X1 \dpath.a_reg.out[14]$_DFFE_PP_  (.D(_009_),
     .CK(clknet_2_1__leaf_clk),
-    .Q(\dpath.a_lt_b_in0[14] ),
+    .Q(\dpath.a_lt_b$in0[14] ),
     .QN(_478_));
- DFF_X2 \dpath.a_reg.out[15]__DFFE_PP_  (.D(_010_),
+ DFF_X2 \dpath.a_reg.out[15]$_DFFE_PP_  (.D(_010_),
     .CK(clknet_2_1__leaf_clk),
-    .Q(\dpath.a_lt_b_in0[15] ),
+    .Q(\dpath.a_lt_b$in0[15] ),
     .QN(_477_));
- DFF_X1 \dpath.a_reg.out[1]__DFFE_PP_  (.D(_011_),
+ DFF_X1 \dpath.a_reg.out[1]$_DFFE_PP_  (.D(_011_),
     .CK(clknet_2_0__leaf_clk),
-    .Q(\dpath.a_lt_b_in0[1] ),
+    .Q(\dpath.a_lt_b$in0[1] ),
     .QN(_476_));
- DFF_X1 \dpath.a_reg.out[2]__DFFE_PP_  (.D(_012_),
+ DFF_X1 \dpath.a_reg.out[2]$_DFFE_PP_  (.D(_012_),
     .CK(clknet_2_0__leaf_clk),
-    .Q(\dpath.a_lt_b_in0[2] ),
+    .Q(\dpath.a_lt_b$in0[2] ),
     .QN(_475_));
- DFF_X1 \dpath.a_reg.out[3]__DFFE_PP_  (.D(_013_),
+ DFF_X1 \dpath.a_reg.out[3]$_DFFE_PP_  (.D(_013_),
     .CK(clknet_2_0__leaf_clk),
-    .Q(\dpath.a_lt_b_in0[3] ),
+    .Q(\dpath.a_lt_b$in0[3] ),
     .QN(_474_));
- DFF_X1 \dpath.a_reg.out[4]__DFFE_PP_  (.D(_014_),
+ DFF_X1 \dpath.a_reg.out[4]$_DFFE_PP_  (.D(_014_),
     .CK(clknet_2_2__leaf_clk),
-    .Q(\dpath.a_lt_b_in0[4] ),
+    .Q(\dpath.a_lt_b$in0[4] ),
     .QN(_473_));
- DFF_X1 \dpath.a_reg.out[5]__DFFE_PP_  (.D(_015_),
+ DFF_X1 \dpath.a_reg.out[5]$_DFFE_PP_  (.D(_015_),
     .CK(clknet_2_2__leaf_clk),
-    .Q(\dpath.a_lt_b_in0[5] ),
+    .Q(\dpath.a_lt_b$in0[5] ),
     .QN(_472_));
- DFF_X1 \dpath.a_reg.out[6]__DFFE_PP_  (.D(_016_),
+ DFF_X1 \dpath.a_reg.out[6]$_DFFE_PP_  (.D(_016_),
     .CK(clknet_2_2__leaf_clk),
-    .Q(\dpath.a_lt_b_in0[6] ),
+    .Q(\dpath.a_lt_b$in0[6] ),
     .QN(_471_));
- DFF_X1 \dpath.a_reg.out[7]__DFFE_PP_  (.D(_017_),
+ DFF_X1 \dpath.a_reg.out[7]$_DFFE_PP_  (.D(_017_),
     .CK(clknet_2_2__leaf_clk),
-    .Q(\dpath.a_lt_b_in0[7] ),
+    .Q(\dpath.a_lt_b$in0[7] ),
     .QN(_470_));
- DFF_X1 \dpath.a_reg.out[8]__DFFE_PP_  (.D(_018_),
+ DFF_X1 \dpath.a_reg.out[8]$_DFFE_PP_  (.D(_018_),
     .CK(clknet_2_3__leaf_clk),
-    .Q(\dpath.a_lt_b_in0[8] ),
+    .Q(\dpath.a_lt_b$in0[8] ),
     .QN(_469_));
- DFF_X1 \dpath.a_reg.out[9]__DFFE_PP_  (.D(_019_),
+ DFF_X1 \dpath.a_reg.out[9]$_DFFE_PP_  (.D(_019_),
     .CK(clknet_2_1__leaf_clk),
-    .Q(\dpath.a_lt_b_in0[9] ),
+    .Q(\dpath.a_lt_b$in0[9] ),
     .QN(_468_));
- DFF_X1 \dpath.b_reg.out[0]__DFFE_PP_  (.D(_020_),
+ DFF_X1 \dpath.b_reg.out[0]$_DFFE_PP_  (.D(_020_),
     .CK(clknet_2_0__leaf_clk),
-    .Q(\dpath.a_lt_b_in1[0] ),
+    .Q(\dpath.a_lt_b$in1[0] ),
     .QN(_467_));
- DFF_X1 \dpath.b_reg.out[10]__DFFE_PP_  (.D(_021_),
+ DFF_X1 \dpath.b_reg.out[10]$_DFFE_PP_  (.D(_021_),
     .CK(clknet_2_1__leaf_clk),
-    .Q(\dpath.a_lt_b_in1[10] ),
+    .Q(\dpath.a_lt_b$in1[10] ),
     .QN(_466_));
- DFF_X1 \dpath.b_reg.out[11]__DFFE_PP_  (.D(_022_),
+ DFF_X1 \dpath.b_reg.out[11]$_DFFE_PP_  (.D(_022_),
     .CK(clknet_2_1__leaf_clk),
-    .Q(\dpath.a_lt_b_in1[11] ),
+    .Q(\dpath.a_lt_b$in1[11] ),
     .QN(_465_));
- DFF_X1 \dpath.b_reg.out[12]__DFFE_PP_  (.D(_023_),
+ DFF_X1 \dpath.b_reg.out[12]$_DFFE_PP_  (.D(_023_),
     .CK(clknet_2_1__leaf_clk),
-    .Q(\dpath.a_lt_b_in1[12] ),
+    .Q(\dpath.a_lt_b$in1[12] ),
     .QN(_464_));
- DFF_X1 \dpath.b_reg.out[13]__DFFE_PP_  (.D(_024_),
+ DFF_X1 \dpath.b_reg.out[13]$_DFFE_PP_  (.D(_024_),
     .CK(clknet_2_1__leaf_clk),
-    .Q(\dpath.a_lt_b_in1[13] ),
+    .Q(\dpath.a_lt_b$in1[13] ),
     .QN(_463_));
- DFF_X1 \dpath.b_reg.out[14]__DFFE_PP_  (.D(_025_),
+ DFF_X1 \dpath.b_reg.out[14]$_DFFE_PP_  (.D(_025_),
     .CK(clknet_2_3__leaf_clk),
-    .Q(\dpath.a_lt_b_in1[14] ),
+    .Q(\dpath.a_lt_b$in1[14] ),
     .QN(_462_));
- DFF_X1 \dpath.b_reg.out[15]__DFFE_PP_  (.D(_026_),
+ DFF_X1 \dpath.b_reg.out[15]$_DFFE_PP_  (.D(_026_),
     .CK(clknet_2_3__leaf_clk),
-    .Q(\dpath.a_lt_b_in1[15] ),
+    .Q(\dpath.a_lt_b$in1[15] ),
     .QN(_461_));
- DFF_X1 \dpath.b_reg.out[1]__DFFE_PP_  (.D(_027_),
+ DFF_X1 \dpath.b_reg.out[1]$_DFFE_PP_  (.D(_027_),
     .CK(clknet_2_0__leaf_clk),
-    .Q(\dpath.a_lt_b_in1[1] ),
+    .Q(\dpath.a_lt_b$in1[1] ),
     .QN(_460_));
- DFF_X1 \dpath.b_reg.out[2]__DFFE_PP_  (.D(_028_),
+ DFF_X1 \dpath.b_reg.out[2]$_DFFE_PP_  (.D(_028_),
     .CK(clknet_2_0__leaf_clk),
-    .Q(\dpath.a_lt_b_in1[2] ),
+    .Q(\dpath.a_lt_b$in1[2] ),
     .QN(_459_));
- DFF_X1 \dpath.b_reg.out[3]__DFFE_PP_  (.D(_029_),
+ DFF_X1 \dpath.b_reg.out[3]$_DFFE_PP_  (.D(_029_),
     .CK(clknet_2_2__leaf_clk),
-    .Q(\dpath.a_lt_b_in1[3] ),
+    .Q(\dpath.a_lt_b$in1[3] ),
     .QN(_458_));
- DFF_X1 \dpath.b_reg.out[4]__DFFE_PP_  (.D(_030_),
+ DFF_X1 \dpath.b_reg.out[4]$_DFFE_PP_  (.D(_030_),
     .CK(clknet_2_2__leaf_clk),
-    .Q(\dpath.a_lt_b_in1[4] ),
+    .Q(\dpath.a_lt_b$in1[4] ),
     .QN(_457_));
- DFF_X1 \dpath.b_reg.out[5]__DFFE_PP_  (.D(_031_),
+ DFF_X1 \dpath.b_reg.out[5]$_DFFE_PP_  (.D(_031_),
     .CK(clknet_2_2__leaf_clk),
-    .Q(\dpath.a_lt_b_in1[5] ),
+    .Q(\dpath.a_lt_b$in1[5] ),
     .QN(_456_));
- DFF_X1 \dpath.b_reg.out[6]__DFFE_PP_  (.D(_032_),
+ DFF_X1 \dpath.b_reg.out[6]$_DFFE_PP_  (.D(_032_),
     .CK(clknet_2_2__leaf_clk),
-    .Q(\dpath.a_lt_b_in1[6] ),
+    .Q(\dpath.a_lt_b$in1[6] ),
     .QN(_455_));
- DFF_X1 \dpath.b_reg.out[7]__DFFE_PP_  (.D(_033_),
+ DFF_X1 \dpath.b_reg.out[7]$_DFFE_PP_  (.D(_033_),
     .CK(clknet_2_3__leaf_clk),
-    .Q(\dpath.a_lt_b_in1[7] ),
+    .Q(\dpath.a_lt_b$in1[7] ),
     .QN(_454_));
- DFF_X1 \dpath.b_reg.out[8]__DFFE_PP_  (.D(_034_),
+ DFF_X1 \dpath.b_reg.out[8]$_DFFE_PP_  (.D(_034_),
     .CK(clknet_2_3__leaf_clk),
-    .Q(\dpath.a_lt_b_in1[8] ),
+    .Q(\dpath.a_lt_b$in1[8] ),
     .QN(_453_));
- DFF_X1 \dpath.b_reg.out[9]__DFFE_PP_  (.D(_035_),
+ DFF_X1 \dpath.b_reg.out[9]$_DFFE_PP_  (.D(_035_),
     .CK(clknet_2_1__leaf_clk),
-    .Q(\dpath.a_lt_b_in1[9] ),
+    .Q(\dpath.a_lt_b$in1[9] ),
     .QN(_452_));
  TAPCELL_X1 PHY_EDGE_ROW_0_Right_0 ();
  TAPCELL_X1 PHY_EDGE_ROW_1_Right_1 ();
@@ -2364,26 +2364,26 @@ module gcd (clk,
     .Z(resp_msg[9]));
  BUF_X1 output53 (.A(net53),
     .Z(resp_val));
- BUF_X4 clkbuf_0_clk (.A(clk),
+ CLKBUF_X3 clkbuf_0_clk (.A(clk),
     .Z(clknet_0_clk));
- BUF_X4 clkbuf_2_0__f_clk (.A(clknet_0_clk),
+ CLKBUF_X3 clkbuf_2_0__f_clk (.A(clknet_0_clk),
     .Z(clknet_2_0__leaf_clk));
- BUF_X4 clkbuf_2_1__f_clk (.A(clknet_0_clk),
+ CLKBUF_X3 clkbuf_2_1__f_clk (.A(clknet_0_clk),
     .Z(clknet_2_1__leaf_clk));
- BUF_X4 clkbuf_2_2__f_clk (.A(clknet_0_clk),
+ CLKBUF_X3 clkbuf_2_2__f_clk (.A(clknet_0_clk),
     .Z(clknet_2_2__leaf_clk));
- BUF_X4 clkbuf_2_3__f_clk (.A(clknet_0_clk),
+ CLKBUF_X3 clkbuf_2_3__f_clk (.A(clknet_0_clk),
     .Z(clknet_2_3__leaf_clk));
  INV_X1 clkload0 (.A(clknet_2_0__leaf_clk));
  INV_X2 clkload1 (.A(clknet_2_2__leaf_clk));
  INV_X4 clkload2 (.A(clknet_2_3__leaf_clk));
- BUF_X2 rebuffer1 (.A(\dpath.a_lt_b_in1[4] ),
+ BUF_X2 rebuffer1 (.A(\dpath.a_lt_b$in1[4] ),
     .Z(net54));
- BUF_X4 rebuffer2 (.A(\dpath.a_lt_b_in1[4] ),
+ BUF_X4 rebuffer2 (.A(\dpath.a_lt_b$in1[4] ),
     .Z(net55));
  BUF_X1 rebuffer56 (.A(net107),
     .Z(net109));
- BUF_X4 rebuffer4 (.A(\dpath.a_lt_b_in0[5] ),
+ BUF_X4 rebuffer4 (.A(\dpath.a_lt_b$in0[5] ),
     .Z(net57));
  BUF_X4 rebuffer54 (.A(_079_),
     .Z(net107));
@@ -2412,31 +2412,31 @@ module gcd (clk,
  FILLCELL_X16 FILLER_0_1 ();
  BUF_X1 rebuffer18 (.A(_101_),
     .Z(net71));
- BUF_X4 rebuffer19 (.A(\dpath.a_lt_b_in0[6] ),
+ BUF_X4 rebuffer19 (.A(\dpath.a_lt_b$in0[6] ),
     .Z(net72));
- BUF_X1 rebuffer20 (.A(\dpath.a_lt_b_in1[14] ),
+ BUF_X1 rebuffer20 (.A(\dpath.a_lt_b$in1[14] ),
     .Z(net73));
- BUF_X1 rebuffer21 (.A(\dpath.a_lt_b_in0[4] ),
+ BUF_X1 rebuffer21 (.A(\dpath.a_lt_b$in0[4] ),
     .Z(net74));
- BUF_X4 rebuffer22 (.A(\dpath.a_lt_b_in0[4] ),
+ BUF_X4 rebuffer22 (.A(\dpath.a_lt_b$in0[4] ),
     .Z(net75));
- BUF_X1 rebuffer23 (.A(\dpath.a_lt_b_in0[9] ),
+ BUF_X1 rebuffer23 (.A(\dpath.a_lt_b$in0[9] ),
     .Z(net76));
- BUF_X2 rebuffer24 (.A(\dpath.a_lt_b_in0[9] ),
+ BUF_X2 rebuffer24 (.A(\dpath.a_lt_b$in0[9] ),
     .Z(net77));
- BUF_X1 rebuffer32 (.A(\dpath.a_lt_b_in1[10] ),
+ BUF_X1 rebuffer32 (.A(\dpath.a_lt_b$in1[10] ),
     .Z(net85));
  BUF_X2 rebuffer33 (.A(_105_),
     .Z(net86));
- BUF_X1 rebuffer34 (.A(\dpath.a_lt_b_in1[11] ),
+ BUF_X1 rebuffer34 (.A(\dpath.a_lt_b$in1[11] ),
     .Z(net87));
- BUF_X4 rebuffer35 (.A(\dpath.a_lt_b_in1[11] ),
+ BUF_X4 rebuffer35 (.A(\dpath.a_lt_b$in1[11] ),
     .Z(net88));
- BUF_X4 rebuffer36 (.A(\dpath.a_lt_b_in0[11] ),
+ BUF_X4 rebuffer36 (.A(\dpath.a_lt_b$in0[11] ),
     .Z(net89));
  BUF_X1 rebuffer38 (.A(net79),
     .Z(net91));
- BUF_X1 rebuffer39 (.A(\dpath.a_lt_b_in0[12] ),
+ BUF_X1 rebuffer39 (.A(\dpath.a_lt_b$in0[12] ),
     .Z(net92));
  BUF_X1 rebuffer42 (.A(_054_),
     .Z(net95));
@@ -2450,21 +2450,21 @@ module gcd (clk,
     .Z(net108));
  BUF_X1 rebuffer60 (.A(_083_),
     .Z(net113));
- BUF_X2 rebuffer25 (.A(\dpath.a_lt_b_in1[9] ),
+ BUF_X2 rebuffer25 (.A(\dpath.a_lt_b$in1[9] ),
     .Z(net78));
- BUF_X1 rebuffer26 (.A(\dpath.a_lt_b_in1[12] ),
+ BUF_X1 rebuffer26 (.A(\dpath.a_lt_b$in1[12] ),
     .Z(net79));
- BUF_X4 rebuffer27 (.A(\dpath.a_lt_b_in0[12] ),
+ BUF_X4 rebuffer27 (.A(\dpath.a_lt_b$in0[12] ),
     .Z(net80));
- BUF_X4 rebuffer28 (.A(\dpath.a_lt_b_in1[6] ),
+ BUF_X4 rebuffer28 (.A(\dpath.a_lt_b$in1[6] ),
     .Z(net81));
- BUF_X1 rebuffer29 (.A(\dpath.a_lt_b_in0[3] ),
+ BUF_X1 rebuffer29 (.A(\dpath.a_lt_b$in0[3] ),
     .Z(net82));
- BUF_X4 rebuffer30 (.A(\dpath.a_lt_b_in1[3] ),
+ BUF_X4 rebuffer30 (.A(\dpath.a_lt_b$in1[3] ),
     .Z(net83));
- BUF_X4 rebuffer31 (.A(\dpath.a_lt_b_in0[3] ),
+ BUF_X4 rebuffer31 (.A(\dpath.a_lt_b$in0[3] ),
     .Z(net84));
- BUF_X2 rebuffer51 (.A(\dpath.a_lt_b_in1[2] ),
+ BUF_X2 rebuffer51 (.A(\dpath.a_lt_b$in1[2] ),
     .Z(net104));
  FILLCELL_X8 FILLER_0_17 ();
  FILLCELL_X4 FILLER_0_25 ();
