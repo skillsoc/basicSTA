@@ -29,6 +29,18 @@ create_rc_corner -name RCMAX\
    -pre_route_clock_res 0\
    -pre_route_clock_cap 0
 
+
+create_rc_corner -name RCMAXDRV\
+   -pre_route_res 1.5\
+   -post_route_res 1.5\
+   -pre_route_cap 1.5\
+   -post_route_cap 1.5\
+   -post_route_cross_cap 1.5\
+   -pre_route_clock_res 0\
+   -pre_route_clock_cap 0
+
+
+
 create_rc_corner -name RCMIN\
    -pre_route_res 1\
    -post_route_res 1\
@@ -40,17 +52,19 @@ create_rc_corner -name RCMIN\
 
 create_delay_corner -name fast_min -timing_condition {fast_tc} -rc_corner RCMIN 
 create_delay_corner -name slow_max -timing_condition {slow_tc} -rc_corner RCMAX
+create_delay_corner -name DRV_max -timing_condition {slow_tc} -rc_corner RCMAXDRV
 
 create_constraint_mode -name functional_mode -sdc_files [list ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc]
 create_constraint_mode -name scan_mode -sdc_files [list ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.scan.sdc]
 create_constraint_mode -name test_mode -sdc_files [list ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.test.sdc]
 
 create_analysis_view -name func_slow_max -constraint_mode functional_mode -delay_corner slow_max
+create_analysis_view -name func_slow_max_DRV -constraint_mode functional_mode -delay_corner DRV_max
 create_analysis_view -name func_fast_min -constraint_mode functional_mode -delay_corner fast_min
 
 create_analysis_view -name scan_fast_min -constraint_mode scan_mode -delay_corner fast_min
 
 create_analysis_view -name test_fast_min -constraint_mode test_mode -delay_corner fast_min
 
-set_analysis_view -setup [list func_slow_max] -hold [list func_fast_min scan_fast_min test_fast_min]
+set_analysis_view -setup [list func_slow_max] -hold [list func_fast_min scan_fast_min test_fast_min] -drv [list func_slow_max_DRV]
 
