@@ -1,0 +1,38 @@
+define_attribute do_not_show_joules_log_on_error -data_type bool -obj_type root -category joules -help_string {Do not show child joules process log upon error.} -default_value {false} -hidden -quiet
+define_attribute joules_batch_eval_command -data_type string -obj_type root -category joules -help_string {The unix command to submit jobs to a server farm using eval of this command, when batch mode is chosen. It overrides joules_batch_script.} -hidden -quiet
+define_attribute joules_batch_script -data_type string -obj_type root -category joules -help_string {The unix command to submit jobs to a server farm.  Recommended settings are 'bsub -q <queuename> -o /dev/null -J <job_name>'.} -default_value {bsub} -hidden -quiet
+proc jls::ckattr_jls_exe {obj args} {
+}
+define_attribute joules_executable -data_type string -obj_type root -category joules -help_string {Joules executable to be used for encapsulated runs.} -check_function {jls::ckattr_jls_exe} -hidden -quiet
+define_attribute joules_extra_pin_mapping_rule -data_type string -obj_type root -category joules -help_string {Modify name while reading stimulus in replay.} -hidden -quiet
+define_attribute joules_launch_args -data_type string -obj_type root -category joules -help_string {The command line arguments that need to be passed to Joules while launching it.} -hidden -quiet
+define_attribute joules_launch_global_timeout -data_type int -obj_type root -category joules -help_string {Global launch timeout in s.} -default_value {2400} -hidden -quiet
+define_attribute joules_launch_initial_connection_timeout -data_type int -obj_type root -category joules -help_string {Launch timeout in s.} -default_value {1200} -hidden -quiet
+define_attribute joules_launch_license -data_type string -obj_type root -category joules -help_string {The first license to be used to start Joules.} -hidden -quiet
+define_attribute joules_launch_parallel_jobs -data_type bool -obj_type root -category joules -help_string {Launch parallel Joules jobs.} -default_value {true} -hidden -quiet
+define_attribute joules_launch_with_batch_command -data_type bool -obj_type root -category joules -help_string {Launch Joules with batch command.} -default_value {false} -hidden -quiet
+define_attribute joules_num_launch_attempts -data_type int -obj_type root -category joules -help_string {Number of launch attempts.} -default_value {5} -hidden -quiet
+proc jls::ckattr_jls_exe {obj args} {
+}
+define_attribute jstudio_executable -data_type string -obj_type root -category joules -help_string {Joules Studio executable to be used for encapsulated runs.} -check_function {jls::ckattr_jls_exe} -hidden -quiet
+define_attribute jstudio_launch_args -data_type string -obj_type root -category joules -help_string {The command line arguments that need to be passed to Joules Studio while launching it.} -hidden -quiet
+define_attribute jstudio_launch_license -data_type string -obj_type root -category joules -help_string {The first license to be used to start Joules Studio.} -hidden -quiet
+proc jls::ckattr_lec_exe {obj args} {
+}
+define_attribute lec_executable -data_type string -obj_type root -category joules -help_string {LEC executable to be used for xreplay runs.} -check_function {jls::ckattr_lec_exe} -default_value {/p/gtkit/tools/eda_tools/conformal/24.10-p100/bin/lec} -hidden -quiet
+proc jls::ckattr_liberate_exe {obj args} {
+}
+define_attribute liberate_executable -data_type string -obj_type root -category joules -help_string {Liberate executable to be used for xreplay runs.} -check_function {jls::ckattr_liberate_exe} -hidden -quiet
+define_attribute replay_merge_read_stimulus_extra_options -data_type string -obj_type root -category joules -help_string {Attribute will pass arguments to read_stimulus for merge_stimulus flow of xreplay_stimulus/replay_stimulus command.} -hidden -quiet
+define_attribute replay_merge_stimulus_extra_options -data_type string -obj_type root -category joules -help_string {Attribute will pass arguments to merge_stimulus within xreplay_stimulus/replay_stimulus command.} -hidden -quiet
+define_attribute replay_merge_write_stimulus_extra_options -data_type string -obj_type root -category joules -help_string {Attribute will pass arguments to write_stimulus for merge_stimulus flow of xreplay_stimulus/replay_stimulus command.} -hidden -quiet
+define_attribute rpi_version -data_type string -obj_type root -category pi -help_string {UPF/CPF file version specified with read_power_intent command.} -hidden -quiet
+define_attribute show_joules_log_lines -data_type int -obj_type root -category joules -help_string {Dump Child Processes Joules logs in Innovus.} -default_value {0} -hidden -quiet
+define_attribute xreplay_compare_sim_extra_options -data_type string -obj_type root -category joules -help_string {Attribute will pass arguments to compare_sim command.} -hidden -quiet
+proc jls::sanity_check_for_xreplay_dump_annotation_info {obj args} {
+}
+define_attribute xreplay_dump_annotation_info -data_type string -obj_type root -category joules -help_string {Attribute will pass arguments to xreplay_stimulus command.} -check_function {jls::sanity_check_for_xreplay_dump_annotation_info} -hidden -quiet
+define_attribute xreplay_extra_options -data_type string -obj_type root -category joules -help_string {Attribute will pass arguments to xreplay command.} -hidden -quiet
+proc jls::ckattr_xrun_exe {obj args} {
+}
+define_attribute xrun_executable -data_type string -obj_type root -category joules -help_string {Xrun executable to be used for xreplay runs.} -check_function {jls::ckattr_xrun_exe} -hidden -quiet
