@@ -2,6 +2,7 @@ set_distribute_host -local
 set_multi_cpu_usage -local_cpu 2
 
 
+
 #read_mmmc ../scripts/MCMM_setup.tcl
 read_mmmc ./MCMM_setup_correctAocv.tcl
 
@@ -61,7 +62,7 @@ report_timing -early  -max_slack 0 -max_paths 100                         > hold
 report_timing -retime path_slew_propagation -max_paths 50 -nworst 1 -path_type full_clock    > pba_50_paths.rpt
 
 
-for {set i 0} {$i < 7} {incr i} {
-eco_add_repeater -pins TDSP_CORE_INST/PROG_BUS_MACH_INST/data_out_reg[1]/D -cells BUF_X1
-}
+#for {set i 0} {$i < 7} {incr i} {
+#eco_add_repeater -pins TDSP_CORE_INST/PROG_BUS_MACH_INST/data_out_reg[1]/D -cells BUF_X1
+#}
 
