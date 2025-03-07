@@ -1,0 +1,617 @@
+[03/07 08:51:48      0s] 
+[03/07 08:51:48      0s] Cadence Tempus(TM) Timing Solution.
+[03/07 08:51:48      0s] Copyright 2024 Cadence Design Systems, Inc. All rights reserved worldwide.
+[03/07 08:51:48      0s] 
+[03/07 08:51:48      0s] Version:	v23.14-e038_1, built Thu Dec 19 15:29:27 PST 2024
+[03/07 08:51:48      0s] Options:	-stylus -no_gui 
+[03/07 08:51:48      0s] Date:		Fri Mar  7 08:51:47 2025
+[03/07 08:51:48      0s] Host:		sccc14333710 (x86_64 w/Linux 4.12.14-122.201-default) (10cores*10cpus*Intel(R) Xeon(R) W-2155 CPU @ 3.30GHz 14080KB)
+[03/07 08:51:48      0s] OS:		SUSE Linux Enterprise Server 12 SP5
+[03/07 08:51:48      0s] 
+[03/07 08:51:48      0s] License:
+[03/07 08:51:48      0s] 		[08:51:47.483281] Configured Lic search path (23.02-s006): 5280@cadence01p.elic.intel.com:5280@cadence10p.elic.intel.com:5280@cadence20p.elic.intel.com:5280@cadence63p.elic.intel.com:5280@cadence76p.elic.intel.com:5280@cadence75p.elic.intel.com:5280@cadence17b.elic.intel.com::5280@cadence01b.elic.intel.com
+[03/07 08:51:48      0s] 
+[03/07 08:51:48      0s] 		tpsxl	Tempus Timing Signoff Solution XL	23.1	checkout succeeded
+[03/07 08:51:48      0s] 		16 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+[03/07 08:51:59     12s] Memory management switch to non-aggressive memory release mode.
+[03/07 08:51:59     12s] 
+[03/07 08:51:59     12s] OS Mmap count monitoring thread starts. Limit of OS Mmap count is 1966080
+[03/07 08:51:59     12s] 
+[03/07 08:52:00     12s] 
+[03/07 08:52:00     12s] ***************************************************************************************
+[03/07 08:52:00     12s] WARNING: R&D BUILD - use only as directed by your Cadence support team.
+[03/07 08:52:00     12s] INFO:    The prefix [DEV] has been added to the prompt as a reminder of that situation.
+[03/07 08:52:00     12s] ***************************************************************************************
+[03/07 08:52:00     12s] 
+[03/07 08:52:01     12s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Tempus Timing Solution v23.14-e038_1 (64bit) 12/19/2024 15:29 (Linux 3.10.0-693.el7.x86_64)
+[03/07 08:52:04     14s] @(#)CDS: NanoRoute 23.14-e038_1 NR241213-1435/23_14-UB (database version 18.20.656) {superthreading v2.20}
+[03/07 08:52:04     14s] @(#)CDS: AAE 23.14-e008 (64bit) 12/19/2024 (Linux 3.10.0-693.el7.x86_64)
+[03/07 08:52:04     14s] @(#)CDS: CTE 23.14-s015_1 () Dec 18 2024 01:07:05 ( )
+[03/07 08:52:04     14s] @(#)CDS: SYNTECH 23.14-s004_1 () Dec 13 2024 08:04:15 ( )
+[03/07 08:52:04     14s] @(#)CDS: CPE v23.14-s032
+[03/07 08:52:04     14s] @(#)CDS: OA 22.61-p020 Fri Nov  1 12:14:48 2024
+[03/07 08:52:04     14s] @(#)CDS: SGN 23.10-d005 (03-Oct-2023) (64 bit executable, TkQt5.15.9)
+[03/07 08:52:04     14s] @(#)CDS: RCDB 11.15.0
+[03/07 08:52:04     14s] @(#)CDS: STYLUS 23.16-e001_1 (11/19/2024 19:18 PST)
+[03/07 08:52:04     14s] 
+[03/07 08:52:04     14s] 
+[03/07 08:52:04     14s] ***********************************************************************************************************
+[03/07 08:52:04     14s] This build has not been tested or validated. Limit usage to validating specific bug fixes or enhancements.
+[03/07 08:52:04     14s] Need to migrate to next available yellow version as soon as it is available.
+[03/07 08:52:04     14s] This engineering build is for use by INTEL for the GRAPHICS project.
+[03/07 08:52:04     14s] It should not be used for other purposes.
+[03/07 08:52:04     14s] This build will expire on 12/31/2025
+[03/07 08:52:04     14s] ***********************************************************************************************************
+[03/07 08:52:04     14s] 
+[03/07 08:52:04     14s] 
+[03/07 08:52:04     14s] The soft stacksize limit is either up to the hard limit or larger than 0.2% of RAM. No change is needed.
+[03/07 08:52:05     14s] **INFO: (TMPDIR-1001): The environment variable TMPDIR is not set.
+Create and set the environment variable TMPDIR to '/tmp/ssv_tmpdir_27220_eb011866-d429-4040-bb62-c150495e5cec_MOJmPR'.
+[03/07 08:52:05     14s] environment variable TMPDIR is '/tmp/ssv_tmpdir_27220_eb011866-d429-4040-bb62-c150495e5cec_MOJmPR'.
+[03/07 08:52:05     15s] #@ Processing -execute option
+[03/07 08:52:05     15s] @[DEV]tempus 1> 
+[03/07 08:52:05     15s] @[DEV]tempus 1> gvim run_MMMC.tcl 
+@[DEV]tempus 2> set_distribute_host -local
+invalid command name "set_distribute_host"
+set_multi_cpu_usage -local_cpu 2
+invalid command name "set_distribute_host"
+[03/07 09:10:54     16s] @[DEV]tempus 3> set_multi_cpu_usage -local_cpu 2
+[03/07 09:10:54     16s] @[DEV]tempus 4> 
+
+[03/07 09:10:54     16s] @[DEV]tempus 4> 
+
+[03/07 09:10:54     16s] @[DEV]tempus 4> 
+
+[03/07 09:10:54     16s] @[DEV]tempus 4> #read_mmmc ../scripts/MCMM_setup.tcl
+#read_mmmc ../scripts/MCMM_setup.tcl
+[03/07 09:10:54     16s] @[DEV]tempus 5> read_mmmc ./MCMM_setup_correctAocv.tcl
+read_mmmc ./MCMM_setup_correctAocv.tcl
+[03/07 09:10:54     16s] #@ Begin verbose source (pre): 
+[03/07 09:10:54     16s] @@file 1: create_library_set -name libset_fast\
+[03/07 09:10:54     16s]    -timing\
+[03/07 09:10:54     16s]     [list ../../libs/liberty/FreePDK45_lib_v1.0_typical.lib\
+[03/07 09:10:54     16s]     ../../libs/liberty/FreePDK45_lib_v1.0_typical_LVT.lib\
+[03/07 09:10:54     16s]     ../../libs/MACRO/LIBERTY/pllclk.lib\
+[03/07 09:10:54     16s]     ../../libs/MACRO/LIBERTY/ram_256x16A.lib\
+[03/07 09:10:54     16s]     ../../libs/MACRO/LIBERTY/rom_512x16A.lib]\
+[03/07 09:10:54     16s]    -aocv\
+[03/07 09:10:54     16s]     [list ../../aocv/aocvCorrected_fast.aocv]
+[03/07 09:10:54     16s] @@file 10: create_library_set -name libset_slow\
+[03/07 09:10:54     16s]    -timing\
+[03/07 09:10:54     16s]     [list ../../libs/liberty/FreePDK45_lib_v1.0_worst.lib\
+[03/07 09:10:54     16s]     ../../libs/liberty/FreePDK45_lib_v1.0_worst_LVT.lib\
+[03/07 09:10:54     16s]     ../../libs/MACRO/LIBERTY/pllclk.lib\
+[03/07 09:10:54     16s]     ../../libs/MACRO/LIBERTY/ram_256x16A.lib\
+[03/07 09:10:54     16s]     ../../libs/MACRO/LIBERTY/rom_512x16A.lib]\
+[03/07 09:10:54     16s]    -aocv\
+[03/07 09:10:54     16s]     [list ../../aocv/aocvCorrected_slow.aocv]
+[03/07 09:10:54     16s] @file 19:
+[03/07 09:10:54     16s] @@file 20: create_timing_condition -name slow_tc -library_sets [list libset_slow]
+[03/07 09:10:54     16s] @@file 21: create_timing_condition -name fast_tc -library_sets [list libset_fast]
+[03/07 09:10:54     16s] @file 22:
+[03/07 09:10:54     16s] @@file 23: create_rc_corner -name RCMAX\
+[03/07 09:10:54     16s]    -pre_route_res 1\
+[03/07 09:10:54     16s]    -post_route_res 1\
+[03/07 09:10:54     16s]    -pre_route_cap 1\
+[03/07 09:10:54     16s]    -post_route_cap 1\
+[03/07 09:10:54     16s]    -post_route_cross_cap 1\
+[03/07 09:10:54     16s]    -pre_route_clock_res 0\
+[03/07 09:10:54     16s]    -pre_route_clock_cap 0
+[03/07 09:10:54     16s] @file 31:
+[03/07 09:10:54     16s] @file 32:
+[03/07 09:10:54     16s] @@file 33: create_rc_corner -name RCMAXDRV\
+[03/07 09:10:54     16s]    -pre_route_res 1.5\
+[03/07 09:10:54     16s]    -post_route_res 1.5\
+[03/07 09:10:54     16s]    -pre_route_cap 1.5\
+[03/07 09:10:54     16s]    -post_route_cap 1.5\
+[03/07 09:10:54     16s]    -post_route_cross_cap 1.5\
+[03/07 09:10:54     16s]    -pre_route_clock_res 0\
+[03/07 09:10:54     16s]    -pre_route_clock_cap 0
+[03/07 09:10:54     16s] @file 41:
+[03/07 09:10:54     16s] @file 42:
+[03/07 09:10:54     16s] @file 43:
+[03/07 09:10:54     16s] @@file 44: create_rc_corner -name RCMIN\
+[03/07 09:10:54     16s]    -pre_route_res 1\
+[03/07 09:10:54     16s]    -post_route_res 1\
+[03/07 09:10:54     16s]    -pre_route_cap 1\
+[03/07 09:10:54     16s]    -post_route_cap 1\
+[03/07 09:10:54     16s]    -post_route_cross_cap 1\
+[03/07 09:10:54     16s]    -pre_route_clock_res 0\
+[03/07 09:10:54     16s]    -pre_route_clock_cap 0
+[03/07 09:10:54     16s] @file 52:
+[03/07 09:10:54     16s] @@file 53: create_delay_corner -name fast_min -timing_condition {fast_tc} -rc_corner RCMIN 
+[03/07 09:10:54     16s] @@file 54: create_delay_corner -name slow_max -timing_condition {slow_tc} -rc_corner RCMAX
+[03/07 09:10:54     16s] @@file 55: create_delay_corner -name DRV_max -timing_condition {slow_tc} -rc_corner RCMAXDRV
+[03/07 09:10:54     16s] @file 56:
+[03/07 09:10:54     16s] @@file 57: create_constraint_mode -name functional_mode -sdc_files [list ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc]
+[03/07 09:10:54     16s] @@file 58: create_constraint_mode -name scan_mode -sdc_files [list ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.scan.sdc]
+[03/07 09:10:54     16s] @@file 59: create_constraint_mode -name test_mode -sdc_files [list ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.test.sdc]
+[03/07 09:10:54     16s] @file 60:
+[03/07 09:10:54     16s] @@file 61: create_analysis_view -name func_slow_max -constraint_mode functional_mode -delay_corner slow_max
+[03/07 09:10:54     16s] @@file 62: create_analysis_view -name func_slow_max_DRV -constraint_mode functional_mode -delay_corner DRV_max
+[03/07 09:10:54     16s] @@file 63: create_analysis_view -name func_fast_min -constraint_mode functional_mode -delay_corner fast_min
+[03/07 09:10:54     16s] @file 64:
+[03/07 09:10:54     16s] @@file 65: create_analysis_view -name scan_fast_min -constraint_mode scan_mode -delay_corner fast_min
+[03/07 09:10:54     16s] @file 66:
+[03/07 09:10:54     16s] @@file 67: create_analysis_view -name test_fast_min -constraint_mode test_mode -delay_corner fast_min
+[03/07 09:10:54     16s] @file 68:
+[03/07 09:10:54     16s] @@file 69: set_analysis_view -setup [list func_slow_max] -hold [list func_fast_min scan_fast_min test_fast_min] -drv [list func_slow_max_DRV]
+[03/07 09:10:54     16s] Number of views requested 3 are allowed with the current licenses... continuing with set_analysis_view.
+[03/07 09:10:54     16s] @file 70:
+[03/07 09:10:54     16s] #@ End verbose source: ./MCMM_setup_correctAocv.tcl
+[03/07 09:10:55     16s] Starting library reading in 'Multi-threaded flow' (with '2' threads)
+[03/07 09:10:55     17s] Reading   timing library /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib.
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'rise_transition' on line 26657 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The rise_transition group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for rise_transition group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26657)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'fall_transition' on line 26646 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The fall_transition group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for fall_transition group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26646)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'cell_rise' on line 26635 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The cell_rise group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for cell_rise group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26635)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'cell_fall' on line 26624 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The cell_fall group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for cell_fall group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26624)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'rise_transition' on line 26710 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The rise_transition group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for rise_transition group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26710)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'fall_transition' on line 26699 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The fall_transition group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for fall_transition group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26699)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'cell_rise' on line 26688 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The cell_rise group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for cell_rise group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26688)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'cell_fall' on line 26677 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The cell_fall group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for cell_fall group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26677)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'rise_transition' on line 26763 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The rise_transition group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for rise_transition group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26763)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'fall_transition' on line 26752 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The fall_transition group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for fall_transition group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26752)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'cell_rise' on line 26741 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The cell_rise group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for cell_rise group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26741)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'cell_fall' on line 26730 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The cell_fall group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for cell_fall group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26730)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'rise_transition' on line 26816 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The rise_transition group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for rise_transition group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26816)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'fall_transition' on line 26805 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The fall_transition group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for fall_transition group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26805)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'cell_rise' on line 26794 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The cell_rise group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for cell_rise group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26794)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'cell_fall' on line 26783 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The cell_fall group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for cell_fall group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26783)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'rise_transition' on line 26869 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The rise_transition group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for rise_transition group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26869)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'fall_transition' on line 26858 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The fall_transition group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for fall_transition group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26858)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'cell_rise' on line 26847 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The cell_rise group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for cell_rise group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26847)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1175):	Template name 'Timing_7_7' used in group 'cell_fall' on line 26836 is not defined in the library. To fix this issue, define the missing template in the library. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-1256):	The cell_fall group 'Timing_7_7' is being ignored due to errors in this group. This group will be excluded for any further library checks. Refer to the previous messages issued for cell_fall group 'Timing_7_7' to find the details of the issues in this group. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26836)
+[03/07 09:10:55     17s] Message <TECHLIB-1175> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[03/07 09:10:55     17s] Message <TECHLIB-1256> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26617)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26670)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26723)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26776)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26829)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26882)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26935)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26988)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 27041)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 27094)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 27147)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 27200)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 27253)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 27306)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 27359)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 27412)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 27465)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 27518)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 27571)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-9143):	Timing group defined in library has either missing or incorrectly defined lookup tables(s) for cell 'OAI33_X1'. This timing group will be ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 27624)
+[03/07 09:10:55     17s] Message <TECHLIB-9143> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-704):	The voltage_map attribute with name 'VDD' referenced by the pg_pin 'VDD' in the cell 'OAI33_X1', is absent in the library. The required voltage_map group needs to be added. This pg_pin is ignored. Related low power constructs referencing this pg_pin may not be read correctly. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26281)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-704):	The voltage_map attribute with name 'VSS' referenced by the pg_pin 'VSS' in the cell 'OAI33_X1', is absent in the library. The required voltage_map group needs to be added. This pg_pin is ignored. Related low power constructs referencing this pg_pin may not be read correctly. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26285)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VDD' has been read in the cell 'OAI33_X1'. The attribute 'related_power_pin' specified for the pin 'A1' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26552)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VSS' has been read in the cell 'OAI33_X1'. The attribute 'related_ground_pin' specified for the pin 'A1' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26553)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VDD' has been read in the cell 'OAI33_X1'. The attribute 'related_power_pin' specified for the pin 'A2' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26562)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VSS' has been read in the cell 'OAI33_X1'. The attribute 'related_ground_pin' specified for the pin 'A2' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26563)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VDD' has been read in the cell 'OAI33_X1'. The attribute 'related_power_pin' specified for the pin 'A3' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26572)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VSS' has been read in the cell 'OAI33_X1'. The attribute 'related_ground_pin' specified for the pin 'A3' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26573)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VDD' has been read in the cell 'OAI33_X1'. The attribute 'related_power_pin' specified for the pin 'B1' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26582)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VSS' has been read in the cell 'OAI33_X1'. The attribute 'related_ground_pin' specified for the pin 'B1' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26583)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VDD' has been read in the cell 'OAI33_X1'. The attribute 'related_power_pin' specified for the pin 'B2' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26592)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VSS' has been read in the cell 'OAI33_X1'. The attribute 'related_ground_pin' specified for the pin 'B2' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26593)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VDD' has been read in the cell 'OAI33_X1'. The attribute 'related_power_pin' specified for the pin 'B3' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26602)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VSS' has been read in the cell 'OAI33_X1'. The attribute 'related_ground_pin' specified for the pin 'B3' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26603)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VDD' has been read in the cell 'OAI33_X1'. The attribute 'related_power_pin' specified for the pin 'ZN' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26612)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VSS' has been read in the cell 'OAI33_X1'. The attribute 'related_ground_pin' specified for the pin 'ZN' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 26613)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-704):	The voltage_map attribute with name 'VDD' referenced by the pg_pin 'VDD' in the cell 'HA_X1', is absent in the library. The required voltage_map group needs to be added. This pg_pin is ignored. Related low power constructs referencing this pg_pin may not be read correctly. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 30077)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-704):	The voltage_map attribute with name 'VSS' referenced by the pg_pin 'VSS' in the cell 'HA_X1', is absent in the library. The required voltage_map group needs to be added. This pg_pin is ignored. Related low power constructs referencing this pg_pin may not be read correctly. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 30081)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VDD' has been read in the cell 'HA_X1'. The attribute 'related_power_pin' specified for the pin 'A' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 30108)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VSS' has been read in the cell 'HA_X1'. The attribute 'related_ground_pin' specified for the pin 'A' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 30109)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VDD' has been read in the cell 'HA_X1'. The attribute 'related_power_pin' specified for the pin 'B' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 30118)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VSS' has been read in the cell 'HA_X1'. The attribute 'related_ground_pin' specified for the pin 'B' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 30119)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VDD' has been read in the cell 'HA_X1'. The attribute 'related_power_pin' specified for the pin 'CO' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 30128)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-702):	No pg_pin with name 'VSS' has been read in the cell 'HA_X1'. The attribute 'related_ground_pin' specified for the pin 'CO' is being ignored. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 30129)
+[03/07 09:10:55     17s] Message <TECHLIB-702> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-704):	The voltage_map attribute with name 'VDD' referenced by the pg_pin 'VDD' in the cell 'FA_X1', is absent in the library. The required voltage_map group needs to be added. This pg_pin is ignored. Related low power constructs referencing this pg_pin may not be read correctly. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 30641)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-704):	The voltage_map attribute with name 'VSS' referenced by the pg_pin 'VSS' in the cell 'FA_X1', is absent in the library. The required voltage_map group needs to be added. This pg_pin is ignored. Related low power constructs referencing this pg_pin may not be read correctly. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst.lib, Line 30645)
+[03/07 09:10:55     17s] Read 116 cells in library FreePDK45_lib_v1.0.
+[03/07 09:10:55     17s] Reading   timing library /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_worst_LVT.lib.
+[03/07 09:10:55     17s] Read 134 cells in library NangateOpenCellLibrary_lvt.
+[03/07 09:10:55     17s] Reading   timing library /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/MACRO/LIBERTY/pllclk.lib.
+[03/07 09:10:55     17s] Read 1 cells in library pllclk.
+[03/07 09:10:55     17s] Reading   timing library /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/MACRO/LIBERTY/ram_256x16A.lib.
+[03/07 09:10:55     17s] Read 1 cells in library USERLIB.
+[03/07 09:10:55     17s] Reading   timing library /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_typical.lib.
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-704):	The voltage_map attribute with name 'VDD' referenced by the pg_pin 'VDD' in the cell 'HA_X1', is absent in the library. The required voltage_map group needs to be added. This pg_pin is ignored. Related low power constructs referencing this pg_pin may not be read correctly. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_typical.lib, Line 30078)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-704):	The voltage_map attribute with name 'VSS' referenced by the pg_pin 'VSS' in the cell 'HA_X1', is absent in the library. The required voltage_map group needs to be added. This pg_pin is ignored. Related low power constructs referencing this pg_pin may not be read correctly. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_typical.lib, Line 30082)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-704):	The voltage_map attribute with name 'VDD' referenced by the pg_pin 'VDD' in the cell 'FA_X1', is absent in the library. The required voltage_map group needs to be added. This pg_pin is ignored. Related low power constructs referencing this pg_pin may not be read correctly. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_typical.lib, Line 30641)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-704):	The voltage_map attribute with name 'VSS' referenced by the pg_pin 'VSS' in the cell 'FA_X1', is absent in the library. The required voltage_map group needs to be added. This pg_pin is ignored. Related low power constructs referencing this pg_pin may not be read correctly. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_typical.lib, Line 30645)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-704):	The voltage_map attribute with name 'VDD' referenced by the pg_pin 'VDD' in the cell 'OAI33_X1', is absent in the library. The required voltage_map group needs to be added. This pg_pin is ignored. Related low power constructs referencing this pg_pin may not be read correctly. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_typical.lib, Line 26282)
+[03/07 09:10:55     17s] **ERROR: (TECHLIB-704):	The voltage_map attribute with name 'VSS' referenced by the pg_pin 'VSS' in the cell 'OAI33_X1', is absent in the library. The required voltage_map group needs to be added. This pg_pin is ignored. Related low power constructs referencing this pg_pin may not be read correctly. (File /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_typical.lib, Line 26286)
+[03/07 09:10:55     17s] Read 116 cells in library FreePDK45_lib_v1.0.
+[03/07 09:10:55     17s] Reading   timing library /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/liberty/FreePDK45_lib_v1.0_typical_LVT.lib.
+[03/07 09:10:55     17s] Read 134 cells in library NangateOpenCellLibrary_lvt.
+[03/07 09:10:55     17s] Library reading multithread flow ended.
+[03/07 09:10:55     17s] Starting library reading in 'Multi-threaded flow' (with '2' threads)
+[03/07 09:10:55     17s] Reading   timing library /nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/libs/MACRO/LIBERTY/rom_512x16A.lib.
+[03/07 09:10:55     17s] Read 1 cells in library USERLIB.
+[03/07 09:10:55     17s] Library reading multithread flow ended.
+[03/07 09:10:55     18s] Ending "PreSetAnalysisView" (total cpu=0:00:01.2, real=0:00:01.0, peak res=1816.2M, current mem=1667.8M)
+[03/07 09:10:55     18s] timing_initialized
+[03/07 09:10:55     18s] @[DEV]tempus 6> 
+
+[03/07 09:10:55     18s] @[DEV]tempus 6> read_netlist "../../design/dtmf_recvr_core/dtmf_recvr_core.v.gz" ; # 8269 instances
+read_netlist "../../design/dtmf_recvr_core/dtmf_recvr_core.v.gz" ; # 8269 instances
+[03/07 09:10:55     18s] #% Begin Load netlist data ... (date=03/07 09:10:55, mem=1667.4M)
+[03/07 09:10:55     18s] *** Begin netlist parsing (mem=1668.1M) ***
+[03/07 09:10:56     18s] Reading verilog netlist '../../design/dtmf_recvr_core/dtmf_recvr_core.v.gz'
+[03/07 09:10:56     18s] 
+[03/07 09:10:56     18s] *** Memory Usage v#2 (Current mem = 1824.773M, initial mem = 868.367M) ***
+[03/07 09:10:56     18s] *** End netlist parsing (cpu=0:00:00.1, real=0:00:01.0, mem=1824.8M) ***
+[03/07 09:10:56     18s] #% End Load netlist data ... (date=03/07 09:10:56, total cpu=0:00:00.6, real=0:00:01.0, peak res=1825.0M, current mem=1817.0M)
+[03/07 09:10:56     18s] Top level cell is dtmf_recvr_core.
+[03/07 09:10:56     18s] Ending "BindLib:" (total cpu=0:00:00.1, real=0:00:00.0, peak res=1854.0M, current mem=1854.0M)
+[03/07 09:10:56     18s] *** Estimate the number of flat objects and h-objects before Flatten ***
+[03/07 09:10:56     18s] 	flat insts : 8566
+[03/07 09:10:56     18s] 	flat terms : 29703
+[03/07 09:10:56     18s] 	HNets : 10963
+[03/07 09:10:56     18s] 	HInsts : 35
+[03/07 09:10:56     18s] 	HTerms : 2914
+[03/07 09:10:56     18s] Building hierarchical netlist for Cell dtmf_recvr_core ...
+[03/07 09:10:56     18s] ***** UseNewTieNetMode *****.
+[03/07 09:10:56     18s] *** Netlist is unique.
+[03/07 09:10:56     18s] ** info: there are 539 modules.
+[03/07 09:10:56     18s] ** info: there are 8234 stdCell insts.
+[03/07 09:10:56     18s] ** info: there are 8231 stdCell insts with at least one signal pin.
+[03/07 09:10:56     18s] 
+[03/07 09:10:56     18s] *** Memory Usage v#2 (Current mem = 2177.668M, initial mem = 868.367M) ***
+[03/07 09:10:56     18s] @[DEV]tempus 7> init_design
+init_design
+[03/07 09:10:56     18s] Set Default Input Pin Transition as 0.1 ps.
+[03/07 09:10:56     18s] **WARN: (IMPTS-471):	The software has determined that the Liberty timing libraries being imported do not share the same units scaling setting for capacitance. The software will use units of 1pf for the default interpretation of values in commands, timing constraints, and timing reports. You can use the root attributes: ui_units_capacitance to override the default units scaling derived from the timing libraries.
+[03/07 09:10:56     19s] **WARN: (IMPTS-471):	The software has determined that the Liberty timing libraries being imported do not share the same units scaling setting for capacitance. The software will use units of 1pf for the default interpretation of values in commands, timing constraints, and timing reports. You can use the root attributes: ui_units_capacitance to override the default units scaling derived from the timing libraries.
+[03/07 09:10:56     19s] **WARN: (IMPTS-471):	The software has determined that the Liberty timing libraries being imported do not share the same units scaling setting for capacitance. The software will use units of 1pf for the default interpretation of values in commands, timing constraints, and timing reports. You can use the root attributes: ui_units_capacitance to override the default units scaling derived from the timing libraries.
+[03/07 09:10:57     19s] Extraction setup Started for TopCell dtmf_recvr_core 
+[03/07 09:10:57     19s] Summary of Active RC-Corners : 
+[03/07 09:10:57     19s]  
+[03/07 09:10:57     19s]  Analysis View: func_slow_max
+[03/07 09:10:57     19s]     RC-Corner Name        : RCMAX
+[03/07 09:10:57     19s]     RC-Corner Index       : 0
+[03/07 09:10:57     19s]     RC-Corner Temperature : 25 Celsius
+[03/07 09:10:57     19s]     RC-Corner Cap Table   : ''
+[03/07 09:10:57     19s]     RC-Corner PostRoute Res Factor        : 1
+[03/07 09:10:57     19s]     RC-Corner PostRoute Cap Factor        : 1
+[03/07 09:10:57     19s]     RC-Corner PostRoute XCap Factor       : 1
+[03/07 09:10:57     19s]  
+[03/07 09:10:57     19s]  Analysis View: func_slow_max_DRV
+[03/07 09:10:57     19s]     RC-Corner Name        : RCMAXDRV
+[03/07 09:10:57     19s]     RC-Corner Index       : 1
+[03/07 09:10:57     19s]     RC-Corner Temperature : 25 Celsius
+[03/07 09:10:57     19s]     RC-Corner Cap Table   : ''
+[03/07 09:10:57     19s]     RC-Corner PostRoute Res Factor        : 1.5
+[03/07 09:10:57     19s]     RC-Corner PostRoute Cap Factor        : 1.5
+[03/07 09:10:57     19s]     RC-Corner PostRoute XCap Factor       : 1.5
+[03/07 09:10:57     19s]  
+[03/07 09:10:57     19s]  Analysis View: func_fast_min
+[03/07 09:10:57     19s]     RC-Corner Name        : RCMIN
+[03/07 09:10:57     19s]     RC-Corner Index       : 2
+[03/07 09:10:57     19s]     RC-Corner Temperature : 25 Celsius
+[03/07 09:10:57     19s]     RC-Corner Cap Table   : ''
+[03/07 09:10:57     19s]     RC-Corner PostRoute Res Factor        : 1
+[03/07 09:10:57     19s]     RC-Corner PostRoute Cap Factor        : 1
+[03/07 09:10:57     19s]     RC-Corner PostRoute XCap Factor       : 1
+[03/07 09:10:57     19s]  
+[03/07 09:10:57     19s]  Analysis View: scan_fast_min
+[03/07 09:10:57     19s]     RC-Corner Name        : RCMIN
+[03/07 09:10:57     19s]     RC-Corner Index       : 2
+[03/07 09:10:57     19s]     RC-Corner Temperature : 25 Celsius
+[03/07 09:10:57     19s]     RC-Corner Cap Table   : ''
+[03/07 09:10:57     19s]     RC-Corner PostRoute Res Factor        : 1
+[03/07 09:10:57     19s]     RC-Corner PostRoute Cap Factor        : 1
+[03/07 09:10:57     19s]     RC-Corner PostRoute XCap Factor       : 1
+[03/07 09:10:57     19s]  
+[03/07 09:10:57     19s]  Analysis View: test_fast_min
+[03/07 09:10:57     19s]     RC-Corner Name        : RCMIN
+[03/07 09:10:57     19s]     RC-Corner Index       : 2
+[03/07 09:10:57     19s]     RC-Corner Temperature : 25 Celsius
+[03/07 09:10:57     19s]     RC-Corner Cap Table   : ''
+[03/07 09:10:57     19s]     RC-Corner PostRoute Res Factor        : 1
+[03/07 09:10:57     19s]     RC-Corner PostRoute Cap Factor        : 1
+[03/07 09:10:57     19s]     RC-Corner PostRoute XCap Factor       : 1
+[03/07 09:10:57     19s] Reading libset_slow AOCV File '/nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/aocv/aocvCorrected_slow.aocv'
+[03/07 09:10:57     19s] **WARN: (IMPTS-471):	The software has determined that the Liberty timing libraries being imported do not share the same units scaling setting for capacitance. The software will use units of 1pf for the default interpretation of values in commands, timing constraints, and timing reports. You can use the root attributes: ui_units_capacitance to override the default units scaling derived from the timing libraries.
+[03/07 09:10:57     19s] Reading libset_fast AOCV File '/nfs/site/disks/vmisd_vclp_efficiency/rcg/rcg/Tempus201_STA_RAK/t/remove/basicSTA/basicSTA/aocv/aocvCorrected_fast.aocv'
+[03/07 09:10:57     19s] Ending "SetAnalysisView" (total cpu=0:00:00.3, real=0:00:00.0, peak res=2447.6M, current mem=2437.6M)
+[03/07 09:10:57     19s] **WARN: (IMPTS-471):	The software has determined that the Liberty timing libraries being imported do not share the same units scaling setting for capacitance. The software will use units of 1pf for the default interpretation of values in commands, timing constraints, and timing reports. You can use the root attributes: ui_units_capacitance to override the default units scaling derived from the timing libraries.
+[03/07 09:10:57     19s] **WARN: (IMPTS-471):	The software has determined that the Liberty timing libraries being imported do not share the same units scaling setting for capacitance. The software will use units of 1pf for the default interpretation of values in commands, timing constraints, and timing reports. You can use the root attributes: ui_units_capacitance to override the default units scaling derived from the timing libraries.
+[03/07 09:10:57     19s] Multithreaded Timing Analysis is initialized with 2 threads
+[03/07 09:10:57     19s] 
+[03/07 09:10:57     19s] Reading timing constraints file '../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.test.sdc' ...
+[03/07 09:10:57     19s] Current (total cpu=0:00:19.9, real=0:19:10, peak res=2588.1M, current mem=2588.1M)
+[03/07 09:10:57     19s] Number of path exceptions in the constraint file = 7
+[03/07 09:10:57     19s] INFO (CTE): Constraints read successfully.
+[03/07 09:10:57     19s] Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=2626.3M, current mem=2626.3M)
+[03/07 09:10:57     20s] Current (total cpu=0:00:20.0, real=0:19:10, peak res=2626.3M, current mem=2626.3M)
+[03/07 09:10:57     20s] Reading timing constraints file '../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc' ...
+[03/07 09:10:57     20s] Current (total cpu=0:00:20.1, real=0:19:10, peak res=2626.4M, current mem=2626.4M)
+[03/07 09:10:57     20s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'channelin' (File ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc, Line 19).
+[03/07 09:10:57     20s] 
+[03/07 09:10:57     20s] **ERROR: (TCLCMD-917):	Cannot find 'ports' that match 'channelin' (File ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc, Line 19).
+[03/07 09:10:57     20s] 
+[03/07 09:10:57     20s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '' (File ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc, Line 19).
+[03/07 09:10:57     20s] 
+[03/07 09:10:57     20s] **ERROR: (TCLNL-312):	set_input_delay: Invalid list of pins: '' (File ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc, Line 19).
+[03/07 09:10:57     20s] 
+[03/07 09:10:57     20s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'domain_ctrl*' (File ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc, Line 20).
+[03/07 09:10:57     20s] 
+[03/07 09:10:57     20s] **ERROR: (TCLCMD-917):	Cannot find 'ports' that match 'domain_ctrl*' (File ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc, Line 20).
+[03/07 09:10:57     20s] 
+[03/07 09:10:57     20s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '' (File ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc, Line 20).
+[03/07 09:10:57     20s] 
+[03/07 09:10:57     20s] **ERROR: (TCLNL-312):	set_input_delay: Invalid list of pins: '' (File ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc, Line 20).
+[03/07 09:10:57     20s] 
+[03/07 09:10:57     20s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'channelout*' (File ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc, Line 21).
+[03/07 09:10:57     20s] 
+[03/07 09:10:57     20s] **ERROR: (TCLCMD-917):	Cannot find 'ports' that match 'channelout*' (File ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc, Line 21).
+[03/07 09:10:57     20s] 
+[03/07 09:10:57     20s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '' (File ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc, Line 21).
+[03/07 09:10:57     20s] 
+[03/07 09:10:57     20s] **ERROR: (TCLNL-312):	set_output_delay: Invalid list of pins: '' (File ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc, Line 21).
+[03/07 09:10:57     20s] 
+[03/07 09:10:57     20s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'domain_enout*' (File ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc, Line 22).
+[03/07 09:10:57     20s] 
+[03/07 09:10:57     20s] **ERROR: (TCLCMD-917):	Cannot find 'ports' that match 'domain_enout*' (File ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc, Line 22).
+[03/07 09:10:57     20s] 
+[03/07 09:10:57     20s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '' (File ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc, Line 22).
+[03/07 09:10:57     20s] 
+[03/07 09:10:57     20s] **ERROR: (TCLNL-312):	set_output_delay: Invalid list of pins: '' (File ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc, Line 22).
+[03/07 09:10:57     20s] 
+[03/07 09:10:57     20s] Number of path exceptions in the constraint file = 19
+[03/07 09:10:57     20s] INFO (CTE): Reading of timing constraints file ../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.pr.sdc completed, with 8 Warnings and 8 Errors.
+[03/07 09:10:58     20s] Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:01.0, peak res=2627.1M, current mem=2627.1M)
+[03/07 09:10:58     20s] Current (total cpu=0:00:20.2, real=0:19:11, peak res=2627.1M, current mem=2627.1M)
+[03/07 09:10:58     20s] Reading timing constraints file '../../design/dtmf_recvr_core/SDC/dtmf_recvr_core.scan.sdc' ...
+[03/07 09:10:58     20s] Current (total cpu=0:00:20.3, real=0:19:11, peak res=2627.1M, current mem=2627.1M)
+[03/07 09:10:58     20s] Number of path exceptions in the constraint file = 9
+[03/07 09:10:58     20s] INFO (CTE): Constraints read successfully.
+[03/07 09:10:58     20s] Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=2629.0M, current mem=2629.0M)
+[03/07 09:10:58     20s] Current (total cpu=0:00:20.4, real=0:19:11, peak res=2629.0M, current mem=2629.0M)
+[03/07 09:10:58     20s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
+[03/07 09:10:58     20s] 
+[03/07 09:10:58     20s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) Begin ...
+[03/07 09:10:58     20s] SB Latch Setting to complicate: TLAT_X1_L complicate code: 9
+[03/07 09:10:58     20s] Summary for sequential cells identification: 
+[03/07 09:10:58     20s]   Identified SBFF number: 32
+[03/07 09:10:58     20s]   Identified MBFF number: 0
+[03/07 09:10:58     20s]   Identified SB Latch number: 8
+[03/07 09:10:58     20s]   Identified MB Latch number: 0
+[03/07 09:10:58     20s]   Not identified SBFF number: 0
+[03/07 09:10:58     20s]   Not identified MBFF number: 0
+[03/07 09:10:58     20s]   Not identified SB Latch number: 1
+[03/07 09:10:58     20s]   Not identified MB Latch number: 0
+[03/07 09:10:58     20s]   Number of sequential cells which are not FFs: 8
+[03/07 09:10:58     20s] Total number of combinational cells: 182
+[03/07 09:10:58     20s] Total number of sequential cells: 49
+[03/07 09:10:58     20s] Total number of tristate cells: 6
+[03/07 09:10:58     20s] Total number of level shifter cells: 0
+[03/07 09:10:58     20s] Total number of power gating cells: 0
+[03/07 09:10:58     20s] Total number of isolation cells: 0
+[03/07 09:10:58     20s] Total number of power switch cells: 0
+[03/07 09:10:58     20s] Total number of pulse generator cells: 0
+[03/07 09:10:58     20s] Total number of always on buffers: 0
+[03/07 09:10:58     20s] Total number of retention cells: 0
+[03/07 09:10:58     20s] Total number of physical cells: 0
+[03/07 09:10:58     20s] List of usable buffers: BUF_X1_L BUF_X2_L BUF_X4_L BUF_X8_L BUF_X16_L BUF_X32_L CLKBUF_X1_L CLKBUF_X2_L CLKBUF_X3_L
+[03/07 09:10:58     20s] Total number of usable buffers: 9
+[03/07 09:10:58     20s] List of unusable buffers:
+[03/07 09:10:58     20s] Total number of unusable buffers: 0
+[03/07 09:10:58     20s] List of usable inverters: INV_X1_L INV_X2_L INV_X4_L INV_X8_L INV_X16_L INV_X32_L INV_X1 INV_X16 INV_X2 INV_X32 INV_X8 INV_X4
+[03/07 09:10:58     20s] Total number of usable inverters: 12
+[03/07 09:10:58     20s] List of unusable inverters:[03/07 09:10:58     20s] 
+[03/07 09:10:58     20s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) End ...
+
+[03/07 09:10:58     20s] Total number of unusable inverters: 0
+[03/07 09:10:58     20s] List of identified usable delay cells: BUF_X1 BUF_X16 BUF_X2 BUF_X32 BUF_X8 BUF_X4
+[03/07 09:10:58     20s] Total number of identified usable delay cells: 6
+[03/07 09:10:58     20s] List of identified unusable delay cells:
+[03/07 09:10:58     20s] Total number of identified unusable delay cells: 0
+[03/07 09:10:58     20s] 
+[03/07 09:10:58     20s] TimeStamp Deleting Cell Server Begin ...
+[03/07 09:10:58     20s] 
+[03/07 09:10:58     20s] TimeStamp Deleting Cell Server End ...
+[03/07 09:10:58     20s] Ending "Cell type marking" (total cpu=0:00:00.0, real=0:00:00.0, peak res=2631.4M, current mem=2631.4M)
+[03/07 09:10:58     20s] 
+[03/07 09:10:58     20s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) Begin ...
+[03/07 09:10:58     20s] SB Latch Setting to complicate: TLAT_X1_L complicate code: 9
+[03/07 09:10:58     20s] Summary for sequential cells identification: 
+[03/07 09:10:58     20s]   Identified SBFF number: 32
+[03/07 09:10:58     20s]   Identified MBFF number: 0
+[03/07 09:10:58     20s]   Identified SB Latch number: 8
+[03/07 09:10:58     20s]   Identified MB Latch number: 0
+[03/07 09:10:58     20s]   Not identified SBFF number: 0
+[03/07 09:10:58     20s]   Not identified MBFF number: 0
+[03/07 09:10:58     20s]   Not identified SB Latch number: 1
+[03/07 09:10:58     20s]   Not identified MB Latch number: 0
+[03/07 09:10:58     20s]   Number of sequential cells which are not FFs: 8
+[03/07 09:10:58     20s]  Visiting view : func_slow_max
+[03/07 09:10:58     20s]    : PowerDomain = none : Weighted F : unweighted  = 5.50 (1.000) with rcCorner = 0
+[03/07 09:10:58     20s]    : PowerDomain = none : Weighted F : unweighted  = 5.50 (1.000) with rcCorner = -1
+[03/07 09:10:58     20s]  Visiting view : func_fast_min
+[03/07 09:10:58     20s]    : PowerDomain = none : Weighted F : unweighted  = 5.50 (1.000) with rcCorner = 2
+[03/07 09:10:58     20s]    : PowerDomain = none : Weighted F : unweighted  = 5.50 (1.000) with rcCorner = -1
+[03/07 09:10:58     20s]  Visiting view : scan_fast_min
+[03/07 09:10:58     20s]    : PowerDomain = none : Weighted F : unweighted  = 5.50 (1.000) with rcCorner = 2
+[03/07 09:10:58     20s]    : PowerDomain = none : Weighted F : unweighted  = 5.50 (1.000) with rcCorner = -1
+[03/07 09:10:58     20s]  Visiting view : test_fast_min
+[03/07 09:10:58     20s]    : PowerDomain = none : Weighted F : unweighted  = 5.50 (1.000) with rcCorner = 2
+[03/07 09:10:58     20s]    : PowerDomain = none : Weighted F : unweighted  = 5.50 (1.000) with rcCorner = -1
+[03/07 09:10:58     20s] TLC MultiMap info (StdDelay):
+[03/07 09:10:58     20s]   : fast_min + libset_fast + 1 + no RcCorner := 5.5ps
+[03/07 09:10:58     20s]   : fast_min + libset_fast + 1 + RCMIN := 5.5ps
+[03/07 09:10:58     20s]   : slow_max + libset_slow + 1 + no RcCorner := 5.5ps
+[03/07 09:10:58     20s]   : slow_max + libset_slow + 1 + RCMAX := 5.5ps
+[03/07 09:10:58     20s]  Setting StdDelay to: 5.5ps
+[03/07 09:10:58     20s] 
+[03/07 09:10:58     20s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) End ...
+[03/07 09:10:58     20s] 
+[03/07 09:10:58     20s] TimeStamp Deleting Cell Server Begin ...
+[03/07 09:10:58     20s] 
+[03/07 09:10:58     20s] TimeStamp Deleting Cell Server End ...
+
+[03/07 09:10:58     20s] @[DEV]tempus 8> 
+[03/07 09:10:58     20s] @[DEV]tempus 8> read_spef -rc_corner RCMAX "../../design/dtmf_recvr_core/SPEF/corner_worst_RCMAX.spef.gz"
+read_spef -rc_corner RCMAX "../../design/dtmf_recvr_core/SPEF/corner_worst_RCMAX.spef.gz"
+[03/07 09:10:58     20s] ***  ***
+[03/07 09:10:58     20s] read_spef Option :  ../../design/dtmf_recvr_core/SPEF/corner_worst_RCMAX.spef.gz -noStarN -rc_corner RCMAX 
+[03/07 09:10:58     20s] WARNING (IMPEXT-3315): Spef available for 1 corner(s)but not available for 2 corner(s). Spef reading will be triggered only after spef for all active RC Corners are available.
+[03/07 09:10:58     20s] @[DEV]tempus 9> read_spef -rc_corner RCMIN "../../design/dtmf_recvr_core/SPEF/corner_worst_RCMIN.spef.gz"read_spef -rc_corner RCMIN "../../design/dtmf_recvr_core/SPEF/corner_worst_RCMIN.spef.gz"
+
+[03/07 09:10:58     20s] ***  ***
+[03/07 09:10:58     20s] read_spef Option :  ../../design/dtmf_recvr_core/SPEF/corner_worst_RCMIN.spef.gz -noStarN -rc_corner RCMIN 
+[03/07 09:10:58     20s] WARNING (IMPEXT-3315): Spef available for 2 corner(s)but not available for 1 corner(s). Spef reading will be triggered only after spef for all active RC Corners are available.
+
+[03/07 09:10:58     20s] @[DEV]tempus 10> 
+[03/07 09:10:58     20s] @[DEV]tempus 10> update_timing
+update_timing
+[03/07 09:10:58     20s] ***  ***
+[03/07 09:10:58     20s] AAE_INFO: opIsDesignInPostRouteState() is 0
+[03/07 09:10:59     20s] AAE DB initialization (MEM=2578.453125 CPU=0:00:00.0 REAL=0:00:00.0) 
+[03/07 09:10:59     20s] **WARN: (IMPTS-471):	The software has determined that the Liberty timing libraries being imported do not share the same units scaling setting for capacitance. The software will use units of 1pf for the default interpretation of values in commands, timing constraints, and timing reports. You can use the root attributes: ui_units_capacitance to override the default units scaling derived from the timing libraries.
+[03/07 09:10:59     20s] #################################################################################
+[03/07 09:10:59     20s] # Design Name: dtmf_recvr_core
+[03/07 09:10:59     20s] # Design Mode: 65nm
+[03/07 09:10:59     20s] # Analysis Mode: MMMC OCV 
+[03/07 09:10:59     20s] # Parasitics Mode: No SPEF/RCDB 
+[03/07 09:10:59     20s] # Signoff Settings: SI Off 
+[03/07 09:10:59     20s] #################################################################################
+[03/07 09:10:59     21s] Topological Sorting (REAL = 0:00:00.0, MEM = 2604.7M, InitMEM = 2599.6M)
+[03/07 09:10:59     21s] Start delay calculation (fullDC) (2 T). (MEM=2576.41)
+[03/07 09:10:59     21s] Start AAE Lib Loading. (MEM=2583.914062)
+[03/07 09:10:59     21s] End AAE Lib Loading. (MEM=2589.914062 CPU=0:00:00.0 Real=0:00:00.0)
+[03/07 09:10:59     21s] End AAE Lib Interpolated Model. (MEM=2590.585938 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net FE_OFCN543_FE_OFN407_tdsp_data_out_13_, driver FE_OFCC543_FE_OFN407_tdsp_data_out_13_/Z (cell BUF_X16) voltage 0.8 does not match receiver RAM_128x16_TEST_INST/RAM_128x16_INST/D[13] (cell ram_256x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net FE_OFCN541_ds_datain_10_, driver FE_OFCC541_ds_datain_10_/Z (cell BUF_X16) voltage 0.8 does not match receiver RAM_256x16_TEST_INST/RAM_256x16_INST/D[10] (cell ram_256x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net FE_OFCN540_FE_OFN14_tdsp_data_out_12_, driver FE_OFCC540_FE_OFN14_tdsp_data_out_12_/Z (cell BUF_X16) voltage 0.8 does not match receiver RAM_128x16_TEST_INST/RAM_128x16_INST/D[12] (cell ram_256x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net FE_OFCN537_ds_datain_7_, driver FE_OFCC537_ds_datain_7_/Z (cell BUF_X16) voltage 0.8 does not match receiver RAM_256x16_TEST_INST/RAM_256x16_INST/D[7] (cell ram_256x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net FE_OFCN534_FE_OFN47_ds_datain_2_, driver FE_OFCC534_FE_OFN47_ds_datain_2_/Z (cell BUF_X16) voltage 0.8 does not match receiver RAM_256x16_TEST_INST/RAM_256x16_INST/D[2] (cell ram_256x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net FE_OFCN532_ds_datain_14_, driver FE_OFCC532_ds_datain_14_/Z (cell BUF_X16) voltage 0.8 does not match receiver RAM_256x16_TEST_INST/RAM_256x16_INST/D[14] (cell ram_256x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net FE_OFCN530_p_addrs_5_, driver FE_OFCC530_p_addrs_5_/Z (cell BUF_X32) voltage 0.8 does not match receiver ROM_512x16_0_INST/A[5] (cell rom_512x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net FE_OFCN528_p_addrs_6_, driver FE_OFCC528_p_addrs_6_/Z (cell BUF_X32) voltage 0.8 does not match receiver ROM_512x16_0_INST/A[6] (cell rom_512x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net FE_OFCN526_p_addrs_7_, driver FE_OFCC526_p_addrs_7_/Z (cell BUF_X32) voltage 0.8 does not match receiver ROM_512x16_0_INST/A[7] (cell rom_512x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net FE_OFCN524_p_addrs_8_, driver FE_OFCC524_p_addrs_8_/Z (cell BUF_X32) voltage 0.8 does not match receiver ROM_512x16_0_INST/A[8] (cell rom_512x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net refclk__L2_N0, driver refclk__L2_I0/ZN (cell INV_X32) voltage 0.8 does not match receiver PLLCLK_INST/refclk (cell pllclk) voltage 1.98 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net m_ram_clk__L5_N0, driver m_ram_clk__L5_I0/Z (cell BUF_X32) voltage 0.8 does not match receiver RAM_128x16_TEST_INST/RAM_128x16_INST/CLK (cell ram_256x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net m_clk__L3_N0, driver m_clk__L3_I0/ZN (cell INV_X32) voltage 0.8 does not match receiver ROM_512x16_0_INST/CLK (cell rom_512x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net m_dsram_clk__L1_N0, driver m_dsram_clk__L1_I0/Z (cell BUF_X32) voltage 0.8 does not match receiver RAM_256x16_TEST_INST/RAM_256x16_INST/CLK (cell ram_256x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net FE_OFCN479_FE_OFN12_tdsp_data_out_10_, driver FE_OFCC479_FE_OFN12_tdsp_data_out_10_/Z (cell BUF_X16) voltage 0.8 does not match receiver RAM_128x16_TEST_INST/RAM_128x16_INST/D[10] (cell ram_256x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net FE_OFCN475_FE_OFN21_tdsp_data_out_9_, driver FE_OFCC475_FE_OFN21_tdsp_data_out_9_/Z (cell BUF_X32) voltage 0.8 does not match receiver RAM_128x16_TEST_INST/RAM_128x16_INST/D[9] (cell ram_256x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net FE_OFCN474_FE_OFN30_tdsp_data_out_11_, driver FE_OFCC474_FE_OFN30_tdsp_data_out_11_/Z (cell BUF_X32) voltage 0.8 does not match receiver RAM_128x16_TEST_INST/RAM_128x16_INST/D[11] (cell ram_256x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net FE_OFCN467_FE_OFN55_tdsp_data_out_1_, driver FE_OFCC467_FE_OFN55_tdsp_data_out_1_/Z (cell BUF_X32) voltage 0.8 does not match receiver RAM_128x16_TEST_INST/RAM_128x16_INST/D[1] (cell ram_256x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net FE_OFCN430_ds_datain_15_, driver FE_OFCC430_ds_datain_15_/Z (cell BUF_X8) voltage 0.8 does not match receiver RAM_256x16_TEST_INST/RAM_256x16_INST/D[15] (cell ram_256x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net FE_OFN112_n_70, driver FE_OFC112_n_70/Z (cell BUF_X16) voltage 0.8 does not match receiver RAM_256x16_TEST_INST/RAM_256x16_INST/A[1] (cell ram_256x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (IMPMSMV-1810):	Net FE_OFN109_n_74, driver FE_OFC109_n_74/Z (cell BUF_X16) voltage 0.8 does not match receiver RAM_256x16_TEST_INST/RAM_256x16_INST/A[2] (cell ram_256x16A) voltage 1.2 for view func_slow_max.
+[03/07 09:11:00     22s] **WARN: (EMS-62):	Message <IMPMSMV-1810> has exceeded the default message display limit of 20.
+[03/07 09:11:00     22s] To avoid this warning, increase the display limit per unique message by
+[03/07 09:11:00     22s] using the set_message -limit <number> command.
+[03/07 09:11:00     22s] The message limit can be removed by using the set_message -no_limit command.
+[03/07 09:11:00     22s] Note that setting a very large number using the set_message -limit command
+[03/07 09:11:00     22s] or removing the message limit using the set_message -no_limit command can
+[03/07 09:11:00     22s] significantly increase the log file size.
+[03/07 09:11:00     22s] To suppress a message, use the set_message -suppress command.
+[03/07 09:11:00     22s] **WARN: (EMS-62):	Message <IMPMSMV-1810> has exceeded the default message display limit of 20.
+[03/07 09:11:00     22s] To avoid this warning, increase the display limit per unique message by
+[03/07 09:11:00     22s] using the set_message -limit <number> command.
+[03/07 09:11:00     22s] The message limit can be removed by using the set_message -no_limit command.
+[03/07 09:11:00     22s] Note that setting a very large number using the set_message -limit command
+[03/07 09:11:00     22s] or removing the message limit using the set_message -no_limit command can
+[03/07 09:11:00     22s] significantly increase the log file size.
+[03/07 09:11:00     22s] To suppress a message, use the set_message -suppress command.
+[03/07 09:11:02     27s] End Timing Check Calculation. (CPU Time=0:00:00.1, Real Time=0:00:00.0)
+[03/07 09:11:02     27s] End Timing Check Calculation. (CPU Time=0:00:00.1, Real Time=0:00:00.0)
+[03/07 09:11:02     27s] End Timing Check Calculation. (CPU Time=0:00:00.1, Real Time=0:00:00.0)
+[03/07 09:11:02     27s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[03/07 09:11:02     27s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[03/07 09:11:02     27s] End delay calculation. (MEM=2714.69 CPU=0:00:05.0 REAL=0:00:02.0)
+[03/07 09:11:02     27s] Begin loading slews from CTE ...
+[03/07 09:11:02     27s] Loading slews from CTE completed...
+[03/07 09:11:02     27s] End delay calculation (fullDC). (MEM=2708.32 CPU=0:00:05.6 REAL=0:00:03.0)
+[03/07 09:11:02     27s] *** CDM Built up (cpu=0:00:06.7  real=0:00:03.0  mem= 2700.0M) ***
+[03/07 09:11:03     27s] **WARN: (TA-1082):	Detected a missing clock arrival for one transition in view func_slow_max at pin PLLCLK_INST/clk1x because a timing arc of this pin allows only one transition to propagate. A single clock edge will continue to propagate beyond this pin, but may result in additional errors if the missing edge is required for downstream analysis. Additional details for this message are available using 'man TA-1082'.
+[03/07 09:11:03     27s] **WARN: (TA-1082):	Detected a missing clock arrival for one transition in view func_slow_max_DRV at pin PLLCLK_INST/clk1x because a timing arc of this pin allows only one transition to propagate. A single clock edge will continue to propagate beyond this pin, but may result in additional errors if the missing edge is required for downstream analysis. Additional details for this message are available using 'man TA-1082'.
+[03/07 09:11:03     27s] **WARN: (TA-1082):	Detected a missing clock arrival for one transition in view func_fast_min at pin PLLCLK_INST/clk1x because a timing arc of this pin allows only one transition to propagate. A single clock edge will continue to propagate beyond this pin, but may result in additional errors if the missing edge is required for downstream analysis. Additional details for this message are available using 'man TA-1082'.
+[03/07 09:11:03     27s] **WARN: (TA-1082):	Detected a missing clock arrival for one transition in view scan_fast_min at pin PLLCLK_INST/clk1x because a timing arc of this pin allows only one transition to propagate. A single clock edge will continue to propagate beyond this pin, but may result in additional errors if the missing edge is required for downstream analysis. Additional details for this message are available using 'man TA-1082'.
+[03/07 09:11:03     27s] **WARN: (TA-1082):	Detected a missing clock arrival for one transition in view test_fast_min at pin PLLCLK_INST/clk1x because a timing arc of this pin allows only one transition to propagate. A single clock edge will continue to propagate beyond this pin, but may result in additional errors if the missing edge is required for downstream analysis. Additional details for this message are available using 'man TA-1082'.
+[03/07 09:11:03     28s] 0
+[03/07 09:11:03     28s] @[DEV]tempus 11> 
+
+[03/07 09:11:03     28s] @[DEV]tempus 11> report_annotated_parasitics
+**WARN: (IMPEXT-6165):	Command report_annotated_parasitics is issued before the parasitic data is made available. Parasitic annotation summary will be reported with zero parasitic data. Load the parasitic data for correct annotation report before issuing report_annotated_parasitics.
+[03/07 09:11:14     28s] ####################################################################
+[03/07 09:11:14     28s] # report_annotated_parasitics: Fri Mar  7 09:11:14 2025
+[03/07 09:11:14     28s] #   view: func_slow_max
+[03/07 09:11:14     28s] #   -list_not_annotated
+[03/07 09:11:14     28s] ####################################################################
+[03/07 09:11:14     28s] #
+[03/07 09:11:14     28s] # list syntax: type: net_name [nrCap Cap nrXCap XCap nrRes Res]
+[03/07 09:11:14     28s] # unit: pF, Ohm
+[03/07 09:11:14     28s] 
+[03/07 09:11:14     28s] # Summary of Annotated Parasitics:
+[03/07 09:11:14     28s] +------------------------------------------------------------------------------+
+[03/07 09:11:14     28s] |    Net Type         |    Count   |   Annotated (%)     | Not Annotated (%)   |
+[03/07 09:11:14     28s] +---------------------+------------+---------------------+---------------------+
+[03/07 09:11:14     28s] | total               |       8751 |          0  0.00%   |       8751 100.00%   |
+[03/07 09:11:14     28s] +---------------------+------------+---------------------+---------------------+
+[03/07 09:11:14     28s] | 0-term:floating (*) |        336 |          0  0.00%   |        336 100.00%   |
+[03/07 09:11:14     28s] | no drive (*)        |          2 |          0  0.00%   |          2 100.00%   |
+[03/07 09:11:14     28s] | 1-term:no load      |          5 |          0  0.00%   |          5 100.00%   |
+[03/07 09:11:14     28s] | real net (complete) |       8408 |          0  0.00%   |       8408 100.00%   |
+[03/07 09:11:14     28s] | real net (broken)   |          0 |          0  0.00%   |          0  0.00%   |
+[03/07 09:11:14     28s] | zero capacitance net|          0 |          0  0.00%   |          0  0.00%   |
+[03/07 09:11:14     28s] +------------------------------------------------------------------------------+
+[03/07 09:11:14     28s] Note for Net Types marked "(*)":  Such nets are never timed, but reported here for informational purpose.
+[03/07 09:11:14     28s] 
+[03/07 09:11:14     28s] +-----------------------------------------------------------------+
+[03/07 09:11:14     28s] | Annotated |    Res ( Ohm)   |    Cap (pF)     |    XCap (pF)    |
+[03/07 09:11:14     28s] +-----------+-----------------+-----------------+-----------------+
+[03/07 09:11:14     28s] | Count     |             0   |             0   |             0   |
+[03/07 09:11:14     28s] | Value     |        0.0000   |        0.0000   |        0.0000   |
+[03/07 09:11:14     28s] +-----------------------------------------------------------------+
+[03/07 09:11:14     28s] 16
+[03/07 09:11:14     28s] @[DEV]tempus 12> exit
+
+[03/07 09:11:28     28s] *** Memory Usage v#2 (Current mem = 2692.250M, initial mem = 868.367M) ***
+[03/07 09:11:28     28s] 
+[03/07 09:11:28     28s] *** Summary of all messages that are not suppressed in this session:
+[03/07 09:11:28     28s] Severity  ID               Count  Summary                                  
+[03/07 09:11:28     28s] WARNING   IMPMSMV-1810       595  Net %s, driver %s (cell %s) voltage %g d...
+[03/07 09:11:28     28s] WARNING   IMPTS-471            7  The software has determined that the Lib...
+[03/07 09:11:28     28s] WARNING   IMPEXT-6165          1  Command report_annotated_parasitics is i...
+[03/07 09:11:28     28s] WARNING   TA-1082              5  Detected a missing clock arrival for one...
+[03/07 09:11:28     28s] WARNING   TCLCMD-513           8  The software could not find a matching o...
+[03/07 09:11:28     28s] ERROR     TCLCMD-917           4  Cannot find '%s' that match '%s'         
+[03/07 09:11:28     28s] ERROR     TCLNL-312            4  %s: Invalid list of pins: '%s'           
+[03/07 09:11:28     28s] ERROR     TECHLIB-702         64  No pg_pin with name '%s' has been read i...
+[03/07 09:11:28     28s] ERROR     TECHLIB-704         12  The voltage_map attribute with name '%s'...
+[03/07 09:11:28     28s] ERROR     TECHLIB-1175       528  Template name '%s' used in group '%s' on...
+[03/07 09:11:28     28s] ERROR     TECHLIB-1256       528  The %s is being ignored due to errors in...
+[03/07 09:11:28     28s] ERROR     TECHLIB-9143       132  Timing group defined in library has eith...
+[03/07 09:11:28     28s] *** Message Summary: 616 warning(s), 1272 error(s)
+[03/07 09:11:28     28s] 
+[03/07 09:11:28     28s] --- Ending "Tempus Timing Solution" (totcpu=0:00:28.3, real=0:19:41, mem=2692.2M) ---
